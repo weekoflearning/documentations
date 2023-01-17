@@ -1,0 +1,16 @@
+{
+  "title": "Not Learning",
+  "description": "Billing Rewatch links",
+  "slug": "/category/learning",
+  "permalink": "/category/learning",
+  "navigation": {
+    "previous": {
+      "title": "SECURITY",
+      "permalink": "/aml-templates/SECURITY"
+    },
+    "next": {
+      "title": "All Repos",
+      "permalink": "/category/all-repos"
+    }
+  }
+}

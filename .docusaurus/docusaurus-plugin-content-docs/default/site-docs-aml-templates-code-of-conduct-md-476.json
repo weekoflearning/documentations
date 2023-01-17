@@ -1,0 +1,23 @@
+{
+  "unversionedId": "aml-templates/CODE_OF_CONDUCT",
+  "id": "aml-templates/CODE_OF_CONDUCT",
+  "title": "Microsoft Open Source Code of Conduct",
+  "description": "This project has adopted the Microsoft Open Source Code of Conduct.",
+  "source": "@site/docs/aml-templates/CODE_OF_CONDUCT.md",
+  "sourceDirName": "aml-templates",
+  "slug": "/aml-templates/CODE_OF_CONDUCT",
+  "permalink": "/aml-templates/CODE_OF_CONDUCT",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "aml-templates",
+    "permalink": "/category/aml-templates"
+  },
+  "next": {
+    "title": "SECURITY",
+    "permalink": "/aml-templates/SECURITY"
+  }
+}

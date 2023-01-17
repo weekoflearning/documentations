@@ -11,9 +11,13 @@
   "tags": [],
   "version": "current",
   "frontMatter": {},
-  "sidebar": "billingSidebar",
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "aml-templates",
+    "permalink": "/aml-templates/"
+  },
   "next": {
-    "title": "Rewatch",
-    "permalink": "/category/rewatch"
+    "title": "ReWatch Video",
+    "permalink": "/category/rewatch-video"
   }
 }

@@ -8,7 +8,34 @@
   "className": "docs-version-current",
   "isLast": true,
   "docsSidebars": {
-    "billingSidebar": [
+    "docsidebar": [
+      {
+        "type": "category",
+        "label": "aml-templates",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Microsoft Open Source Code of Conduct",
+            "href": "/aml-templates/CODE_OF_CONDUCT",
+            "docId": "aml-templates/CODE_OF_CONDUCT"
+          },
+          {
+            "type": "link",
+            "label": "SECURITY",
+            "href": "/aml-templates/SECURITY",
+            "docId": "aml-templates/SECURITY"
+          },
+          {
+            "type": "link",
+            "label": "aml-templates",
+            "href": "/aml-templates/",
+            "docId": "aml-templates/readme"
+          }
+        ],
+        "href": "/category/aml-templates"
+      },
       {
         "type": "link",
         "label": "documentations",
@@ -17,50 +44,63 @@
       },
       {
         "type": "category",
-        "label": "Rewatch",
+        "label": "ReWatch Video",
         "items": [
           {
             "type": "link",
-            "label": "Investigating a Zuora Subscription",
-            "href": "https://github.rewatch.com/video/cxw824zs0yclc67y-investigating-a-zuora-subscription?t=371.136145"
+            "label": "video1",
+            "href": "#"
           },
           {
             "type": "link",
-            "label": "Zuora subscription item cancelation and refund walkthrough",
-            "href": "https://github.rewatch.com/video/ritzz4dd7tvaht5s-zuora-subscription-item-cancelation-and-refund-walkthrough-with-leo"
+            "label": "video2",
+            "href": "#"
           }
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/category/rewatch"
+        "href": "/category/rewatch-video"
       },
       {
         "type": "category",
-        "label": "External",
+        "label": "All Dashboards",
         "items": [
           {
             "type": "link",
-            "label": "Billing Actions & Packages Presentation",
-            "href": "https://docs.google.com/presentation/d/1_x1i56lh4ZKNCXaNm_YaNQWZ02GPRJ2OQRSkM4hLKNM/edit?usp=sharing"
-          },
-          {
-            "type": "link",
-            "label": "Testing Credit Cards",
-            "href": "https://stripe.com/docs/testing#declined-payments"
+            "label": "video3",
+            "href": "google.com"
           }
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/category/external"
+        "href": "/category/all-dashboards"
       }
     ]
   },
   "docs": {
+    "aml-templates/CODE_OF_CONDUCT": {
+      "id": "aml-templates/CODE_OF_CONDUCT",
+      "title": "Microsoft Open Source Code of Conduct",
+      "description": "This project has adopted the Microsoft Open Source Code of Conduct.",
+      "sidebar": "docsidebar"
+    },
+    "aml-templates/readme": {
+      "id": "aml-templates/readme",
+      "title": "aml-templates",
+      "description": "template repository for azure machine learnings",
+      "sidebar": "docsidebar"
+    },
+    "aml-templates/SECURITY": {
+      "id": "aml-templates/SECURITY",
+      "title": "SECURITY",
+      "description": "Security",
+      "sidebar": "docsidebar"
+    },
     "README": {
       "id": "README",
       "title": "documentations",
       "description": "documentations repo",
-      "sidebar": "billingSidebar"
+      "sidebar": "docsidebar"
     }
   }
 }

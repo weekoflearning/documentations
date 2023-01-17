@@ -1,0 +1,23 @@
+{
+  "unversionedId": "aml-templates/SECURITY",
+  "id": "aml-templates/SECURITY",
+  "title": "SECURITY",
+  "description": "Security",
+  "source": "@site/docs/aml-templates/SECURITY.md",
+  "sourceDirName": "aml-templates",
+  "slug": "/aml-templates/SECURITY",
+  "permalink": "/aml-templates/SECURITY",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "Microsoft Open Source Code of Conduct",
+    "permalink": "/aml-templates/CODE_OF_CONDUCT"
+  },
+  "next": {
+    "title": "aml-templates",
+    "permalink": "/aml-templates/"
+  }
+}

@@ -39,24 +39,19 @@ const config = {
       navbar: {
         title: 'Home',
         logo: {
-          alt: 'Billing Docs Logo',
+          alt: 'Repo logo',
           src: 'img/money.png',
         },
         items: [
           {
             position: 'left',
-            label: 'Gitcoin',
-            to: "/category/gitcoin"
+            label: 'aml-templates',
+            to: "/category/aml-templates"
           },
           {
             position: 'left',
-            label: 'Meuse',
-            to: "/category/meuse"
-          },
-          {
-            position: 'left',
-            label: 'Rewatch',
-            to: "/category/rewatch"
+            label: 'aml-templates2',
+            to: "/aml-templates"
           },
           {
             position: 'left',
@@ -72,8 +67,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Gitcoin',
-                to: '/category/gitcoin',
+                label: 'aml-templates',
+                to: '/aml-templates/',
               },
               {
                 label: 'Meuse',

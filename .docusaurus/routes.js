@@ -9,25 +9,49 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '209'),
+    component: ComponentCreator('/', 'e91'),
     routes: [
       {
         path: '/',
-        component: ComponentCreator('/', '8a5'),
+        component: ComponentCreator('/', '35d'),
         exact: true,
-        sidebar: "billingSidebar"
+        sidebar: "docsidebar"
       },
       {
-        path: '/category/external',
-        component: ComponentCreator('/category/external', 'ed0'),
+        path: '/aml-templates/',
+        component: ComponentCreator('/aml-templates/', '4c2'),
         exact: true,
-        sidebar: "billingSidebar"
+        sidebar: "docsidebar"
       },
       {
-        path: '/category/rewatch',
-        component: ComponentCreator('/category/rewatch', '7ce'),
+        path: '/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
         exact: true,
-        sidebar: "billingSidebar"
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/aml-templates/SECURITY',
+        component: ComponentCreator('/aml-templates/SECURITY', 'a47'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/category/all-dashboards',
+        component: ComponentCreator('/category/all-dashboards', '89b'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/category/aml-templates',
+        component: ComponentCreator('/category/aml-templates', '775'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/category/rewatch-video',
+        component: ComponentCreator('/category/rewatch-video', '2db'),
+        exact: true,
+        sidebar: "docsidebar"
       }
     ]
   },

@@ -11,27 +11,47 @@
           "mainDocId": "README",
           "docs": [
             {
+              "id": "aml-templates/CODE_OF_CONDUCT",
+              "path": "/aml-templates/CODE_OF_CONDUCT",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "aml-templates/readme",
+              "path": "/aml-templates/",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "aml-templates/SECURITY",
+              "path": "/aml-templates/SECURITY",
+              "sidebar": "docsidebar"
+            },
+            {
               "id": "README",
               "path": "/",
-              "sidebar": "billingSidebar"
+              "sidebar": "docsidebar"
             },
             {
-              "id": "/category/rewatch",
-              "path": "/category/rewatch",
-              "sidebar": "billingSidebar"
+              "id": "/category/aml-templates",
+              "path": "/category/aml-templates",
+              "sidebar": "docsidebar"
             },
             {
-              "id": "/category/external",
-              "path": "/category/external",
-              "sidebar": "billingSidebar"
+              "id": "/category/rewatch-video",
+              "path": "/category/rewatch-video",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "/category/all-dashboards",
+              "path": "/category/all-dashboards",
+              "sidebar": "docsidebar"
             }
           ],
           "draftIds": [],
           "sidebars": {
-            "billingSidebar": {
+            "docsidebar": {
               "link": {
-                "path": "/",
-                "label": "README"
+                "path": "/category/aml-templates",
+                "label": "aml-templates"
               }
             }
           }

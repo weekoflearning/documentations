@@ -1,12 +1,12 @@
 {
   "title": "External",
   "description": "External billing links",
-  "slug": "/category/external",
-  "permalink": "/category/external",
+  "slug": "/category/all-repos",
+  "permalink": "/category/all-repos",
   "navigation": {
     "previous": {
-      "title": "Rewatch",
-      "permalink": "/category/rewatch"
+      "title": "Learning",
+      "permalink": "/category/learning"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "title": "SLO dashboards",
+  "description": "datadog links",
+  "slug": "/category/all-dashboards",
+  "permalink": "/category/all-dashboards",
+  "navigation": {
+    "previous": {
+      "title": "ReWatch Video",
+      "permalink": "/category/rewatch-video"
+    }
+  }
+}
