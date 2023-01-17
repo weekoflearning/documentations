@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweekoflearning_docsite=self.webpackChunkweekoflearning_docsite||[]).push([[839],{9049:e=>{e.exports=JSON.parse('{"title":"SLO dashboards","description":"datadog links","slug":"/category/all-dashboards","permalink":"/category/all-dashboards","navigation":{"previous":{"title":"ReWatch Video","permalink":"/category/rewatch-video"}}}')}}]);
