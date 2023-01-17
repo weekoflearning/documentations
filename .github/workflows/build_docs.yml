@@ -13,6 +13,6 @@ jobs:
       - name: Install dependencies
         run: yarn
       - name: Generate docs directory
-        run: ./script/sync_docs
+        run: ./scripts/sync_docs
       - name: Build
         run: yarn build
