@@ -1,0 +1,23 @@
+{
+  "unversionedId": "sample",
+  "id": "sample",
+  "title": "sample",
+  "description": "asdadsasd",
+  "source": "@site/docs/sample.md",
+  "sourceDirName": ".",
+  "slug": "/sample",
+  "permalink": "/documentations/build/sample",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "documentations",
+    "permalink": "/documentations/build/"
+  },
+  "next": {
+    "title": "ReWatch Video",
+    "permalink": "/documentations/build/category/rewatch-video"
+  }
+}

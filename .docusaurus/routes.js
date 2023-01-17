@@ -3,53 +3,59 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/search',
-    component: ComponentCreator('/search', 'cc3'),
+    path: '/documentations/build/search',
+    component: ComponentCreator('/documentations/build/search', '6d6'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'e91'),
+    path: '/documentations/build/',
+    component: ComponentCreator('/documentations/build/', '1e4'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '35d'),
+        path: '/documentations/build/',
+        component: ComponentCreator('/documentations/build/', 'edc'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/',
-        component: ComponentCreator('/aml-templates/', '4c2'),
+        path: '/documentations/build/aml-templates/',
+        component: ComponentCreator('/documentations/build/aml-templates/', '1a0'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/CODE_OF_CONDUCT',
-        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
+        path: '/documentations/build/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/documentations/build/aml-templates/CODE_OF_CONDUCT', '9fb'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/SECURITY',
-        component: ComponentCreator('/aml-templates/SECURITY', 'a47'),
+        path: '/documentations/build/aml-templates/SECURITY',
+        component: ComponentCreator('/documentations/build/aml-templates/SECURITY', 'd8f'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/all-dashboards',
-        component: ComponentCreator('/category/all-dashboards', '89b'),
+        path: '/documentations/build/category/all-dashboards',
+        component: ComponentCreator('/documentations/build/category/all-dashboards', 'e23'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/aml-templates',
-        component: ComponentCreator('/category/aml-templates', '775'),
+        path: '/documentations/build/category/aml-templates',
+        component: ComponentCreator('/documentations/build/category/aml-templates', '387'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/rewatch-video',
-        component: ComponentCreator('/category/rewatch-video', '2db'),
+        path: '/documentations/build/category/rewatch-video',
+        component: ComponentCreator('/documentations/build/category/rewatch-video', '34d'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/documentations/build/sample',
+        component: ComponentCreator('/documentations/build/sample', '9c6'),
         exact: true,
         sidebar: "docsidebar"
       }

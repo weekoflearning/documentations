@@ -1,0 +1,16 @@
+{
+  "title": "Rewatch videos",
+  "description": "npm rewatch videos",
+  "slug": "/category/rewatch-video",
+  "permalink": "/documentations/build/category/rewatch-video",
+  "navigation": {
+    "previous": {
+      "title": "sample",
+      "permalink": "/documentations/build/sample"
+    },
+    "next": {
+      "title": "All Dashboards",
+      "permalink": "/documentations/build/category/all-dashboards"
+    }
+  }
+}

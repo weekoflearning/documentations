@@ -18,29 +18,35 @@
           {
             "type": "link",
             "label": "Microsoft Open Source Code of Conduct",
-            "href": "/aml-templates/CODE_OF_CONDUCT",
+            "href": "/documentations/build/aml-templates/CODE_OF_CONDUCT",
             "docId": "aml-templates/CODE_OF_CONDUCT"
           },
           {
             "type": "link",
             "label": "SECURITY",
-            "href": "/aml-templates/SECURITY",
+            "href": "/documentations/build/aml-templates/SECURITY",
             "docId": "aml-templates/SECURITY"
           },
           {
             "type": "link",
             "label": "aml-templates",
-            "href": "/aml-templates/",
+            "href": "/documentations/build/aml-templates/",
             "docId": "aml-templates/readme"
           }
         ],
-        "href": "/category/aml-templates"
+        "href": "/documentations/build/category/aml-templates"
       },
       {
         "type": "link",
         "label": "documentations",
-        "href": "/",
+        "href": "/documentations/build/",
         "docId": "README"
+      },
+      {
+        "type": "link",
+        "label": "sample",
+        "href": "/documentations/build/sample",
+        "docId": "sample"
       },
       {
         "type": "category",
@@ -59,7 +65,7 @@
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/category/rewatch-video"
+        "href": "/documentations/build/category/rewatch-video"
       },
       {
         "type": "category",
@@ -73,7 +79,7 @@
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/category/all-dashboards"
+        "href": "/documentations/build/category/all-dashboards"
       }
     ]
   },
@@ -100,6 +106,12 @@
       "id": "README",
       "title": "documentations",
       "description": "documentations repo",
+      "sidebar": "docsidebar"
+    },
+    "sample": {
+      "id": "sample",
+      "title": "sample",
+      "description": "asdadsasd",
       "sidebar": "docsidebar"
     }
   }
