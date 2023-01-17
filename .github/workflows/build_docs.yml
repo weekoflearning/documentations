@@ -1,4 +1,4 @@
-name: End-to-end tests
+name: build docs
 on: 
   [workflow_dispatch]
 jobs:
