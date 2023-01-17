@@ -4,12 +4,12 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/documentations/build/search',
-    component: ComponentCreator('/documentations/build/search', '6d6'),
+    component: ComponentCreator('/documentations/build/search', '5fd'),
     exact: true
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '1e4'),
+    component: ComponentCreator('/documentations/build/', '46f'),
     routes: [
       {
         path: '/documentations/build/',
@@ -20,6 +20,12 @@ export default [
       {
         path: '/documentations/build/aml-templates/',
         component: ComponentCreator('/documentations/build/aml-templates/', '1a0'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/documentations/build/aml-templates/',
+        component: ComponentCreator('/documentations/build/aml-templates/', '374'),
         exact: true,
         sidebar: "docsidebar"
       },

@@ -1,4 +1,4 @@
-import lunr from "/Users/ashishonce/myrepos/documentations/node_modules/lunr/lunr.js";
+import lunr from "/home/runner/work/documentations/documentations/node_modules/lunr/lunr.js";
 export const language = ["en"];
 export const removeDefaultStopWordFilter = false;
 export const removeDefaultStemmer = false;

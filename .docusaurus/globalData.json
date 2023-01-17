@@ -21,6 +21,11 @@
               "sidebar": "docsidebar"
             },
             {
+              "id": "aml-templates/README",
+              "path": "/documentations/build/aml-templates/",
+              "sidebar": "docsidebar"
+            },
+            {
               "id": "aml-templates/SECURITY",
               "path": "/documentations/build/aml-templates/SECURITY",
               "sidebar": "docsidebar"

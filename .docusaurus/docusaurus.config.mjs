@@ -12,7 +12,7 @@ export default {
   "favicon": "img/favicon.ico",
   "themes": [
     [
-      "/Users/ashishonce/myrepos/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "/home/runner/work/documentations/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "indexBlog": false,
         "docsRouteBasePath": "/"
@@ -26,7 +26,7 @@ export default {
         "blog": false,
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/Users/ashishonce/myrepos/documentations/sidebars.js"
+          "sidebarPath": "/home/runner/work/documentations/documentations/sidebars.js"
         }
       }
     ]

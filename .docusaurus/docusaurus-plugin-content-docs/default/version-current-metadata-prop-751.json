@@ -23,6 +23,12 @@
           },
           {
             "type": "link",
+            "label": "aml-templates",
+            "href": "/documentations/build/aml-templates/",
+            "docId": "aml-templates/README"
+          },
+          {
+            "type": "link",
             "label": "SECURITY",
             "href": "/documentations/build/aml-templates/SECURITY",
             "docId": "aml-templates/SECURITY"
@@ -92,6 +98,12 @@
     },
     "aml-templates/readme": {
       "id": "aml-templates/readme",
+      "title": "aml-templates",
+      "description": "template repository for azure machine learnings",
+      "sidebar": "docsidebar"
+    },
+    "aml-templates/README": {
+      "id": "aml-templates/README",
       "title": "aml-templates",
       "description": "template repository for azure machine learnings",
       "sidebar": "docsidebar"
