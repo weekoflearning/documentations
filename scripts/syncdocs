@@ -23,6 +23,6 @@ cp static/category/aml-templates_category.json docs/aml-templates/_category_.jso
 # cp -rp submodules/meuse/docs/images/. static/docs/images
 
 # Remove files we want to exclude
-while read p; do
-  rm $p
-done < EXCLUDE
+# while read p; do
+#   rm $p
+# done < EXCLUDE
