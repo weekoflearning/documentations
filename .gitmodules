@@ -1,6 +1,3 @@
 [submodule "submodules/aml-templates"]
 	path = submodules/aml-templates
 	url = https://github.com/weekoflearning/aml-templates
-[submodule "submodules/multiprocessing"]
-	path = submodules/multiprocessing
-	url = https://github.com/weekoflearning/python-multiprocessing
