@@ -1,6 +1,10 @@
 name: build docs
 on: 
   [workflow_dispatch]
+env:
+  COMMITTER_EMAIL: ashishonce@github.com
+  COMMITTER_NAME: ashish kumar
+  COMMITTER_USERNAME: ashishonce
 jobs:
   cypress-run:
     runs-on: ubuntu-20.04
@@ -16,3 +20,16 @@ jobs:
         run: ./scripts/syncdocs
       - name: Build
         run: yarn build
+        
+      - name: "Commit if any changes were made"
+        run: |
+          git remote add github "https://$COMMITTER_USERNAME:${{ github.token }}@github.com/$GITHUB_REPOSITORY.git"
+          git pull github ${GITHUB_REF} --ff-only
+          if [[ `git status --porcelain` ]]; then
+            git status
+            git add .
+            git config --global user.email $COMMITTER_EMAIL
+            git config --global user.name $COMMITTER_NAME
+            git commit -m "update docs"
+            git push github HEAD:${GITHUB_REF}
+          fi
