@@ -1,0 +1,18 @@
+name: End-to-end tests
+on: 
+  [workflow_dispatch]
+jobs:
+  cypress-run:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          token: ${{ github.token }}
+          submodules: true
+      - name: Install dependencies
+        run: yarn
+      - name: Generate docs directory
+        run: ./script/sync_docs
+      - name: Build
+        run: yarn build
