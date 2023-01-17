@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkweekoflearning_docsite=self.webpackChunkweekoflearning_docsite||[]).push([[89],{6338:e=>{e.exports=JSON.parse('{"title":"External","description":"External billing links","slug":"/category/external","permalink":"/category/external","navigation":{"previous":{"title":"Rewatch","permalink":"/category/rewatch"}}}')}}]);
