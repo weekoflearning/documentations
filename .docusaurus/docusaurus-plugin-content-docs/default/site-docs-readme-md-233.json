@@ -1,0 +1,19 @@
+{
+  "unversionedId": "README",
+  "id": "README",
+  "title": "documentations",
+  "description": "documentations repo",
+  "source": "@site/docs/README.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "billingSidebar",
+  "next": {
+    "title": "Rewatch",
+    "permalink": "/category/rewatch"
+  }
+}

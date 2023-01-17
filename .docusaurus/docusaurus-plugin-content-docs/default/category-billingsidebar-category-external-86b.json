@@ -1,0 +1,12 @@
+{
+  "title": "External",
+  "description": "External billing links",
+  "slug": "/category/external",
+  "permalink": "/category/external",
+  "navigation": {
+    "previous": {
+      "title": "Rewatch",
+      "permalink": "/category/rewatch"
+    }
+  }
+}

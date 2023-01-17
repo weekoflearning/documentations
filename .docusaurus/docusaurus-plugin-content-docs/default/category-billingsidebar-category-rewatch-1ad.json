@@ -1,0 +1,16 @@
+{
+  "title": "Rewatch",
+  "description": "Billing Rewatch links",
+  "slug": "/category/rewatch",
+  "permalink": "/category/rewatch",
+  "navigation": {
+    "previous": {
+      "title": "documentations",
+      "permalink": "/"
+    },
+    "next": {
+      "title": "External",
+      "permalink": "/category/external"
+    }
+  }
+}
