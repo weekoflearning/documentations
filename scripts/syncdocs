@@ -19,8 +19,8 @@ cp static/category/aml-templates_category.json docs/aml-templates/_category_.jso
 # cp static/category/meuse_category_.json docs/meuse/_category_.json
 
 # Copy imagery to static folder
-mkdir -p static/docs/images
-cp -rp /img/. static/docs/images
+#mkdir -p static/docs/images
+#cp -rp /img/. static/docs/images
 
 # Remove files we want to exclude
 # while read p; do
