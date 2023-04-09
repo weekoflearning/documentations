@@ -40,7 +40,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'Repo logo',
-          src: 'img/money.png',
+          src: 'img/IMG_20210515_160400_603.jpg',
         },
         items: [
           {
