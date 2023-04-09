@@ -117,13 +117,13 @@
     "README": {
       "id": "README",
       "title": "documentations",
-      "description": "documentations repo",
+      "description": "documentations repo, work of all my work",
       "sidebar": "docsidebar"
     },
     "sample": {
       "id": "sample",
       "title": "sample",
-      "description": "asdadsasd",
+      "description": "Welcome to the page which helps you to learn about various topics",
       "sidebar": "docsidebar"
     }
   }
