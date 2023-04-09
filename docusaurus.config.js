@@ -75,11 +75,11 @@ const config = {
                 to: '/category/meuse',
               },
               {
-                label: 'Rewatch',
+                label: 'DSA',
                 to: '/category/rewatch',
               },
               {
-                label: 'External',
+                label: 'System Design',
                 to: '/category/external',
               },
             ],
@@ -88,8 +88,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'View this site on GitHub',
-                href: '/',
+                label: 'Go to GitHub Profile',
+                href: 'https://github.com/ashishonce',
               },
             ],
           },
