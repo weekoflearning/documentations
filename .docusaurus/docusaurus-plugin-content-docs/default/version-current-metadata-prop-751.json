@@ -56,36 +56,36 @@
       },
       {
         "type": "category",
-        "label": "ReWatch Video",
+        "label": "Training Videos",
         "items": [
           {
             "type": "link",
-            "label": "video1",
+            "label": "How to Deploy ",
             "href": "#"
           },
           {
             "type": "link",
-            "label": "video2",
+            "label": "How to Build",
             "href": "#"
           }
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/documentations/build/category/rewatch-video"
+        "href": "/documentations/build/category/training-videos"
       },
       {
         "type": "category",
-        "label": "All Dashboards",
+        "label": "System Design",
         "items": [
           {
             "type": "link",
-            "label": "video3",
-            "href": "google.com"
+            "label": "How to Test",
+            "href": "github.com/ashishonce"
           }
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/documentations/build/category/all-dashboards"
+        "href": "/documentations/build/category/system-design"
       }
     ]
   },

@@ -5,7 +5,7 @@
       "plugin": "ee4e7893"
     }
   },
-  "/documentations/build/-46f": {
+  "/documentations/build/-285": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a73d4560"
@@ -32,17 +32,17 @@
     "__comp": "17896441",
     "content": "d5b01e06"
   },
-  "/documentations/build/category/all-dashboards-e23": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "ac7d7993"
-  },
   "/documentations/build/category/aml-templates-387": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "068ac7f2"
   },
-  "/documentations/build/category/rewatch-video-34d": {
+  "/documentations/build/category/system-design-149": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "1e4847ff"
+    "categoryGeneratedIndex": "bacb515c"
+  },
+  "/documentations/build/category/training-videos-34c": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "fe43b828"
   },
   "/documentations/build/sample-9c6": {
     "__comp": "17896441",

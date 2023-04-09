@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '46f'),
+    component: ComponentCreator('/documentations/build/', '285'),
     routes: [
       {
         path: '/documentations/build/',
@@ -42,20 +42,20 @@ export default [
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/category/all-dashboards',
-        component: ComponentCreator('/documentations/build/category/all-dashboards', 'e23'),
-        exact: true,
-        sidebar: "docsidebar"
-      },
-      {
         path: '/documentations/build/category/aml-templates',
         component: ComponentCreator('/documentations/build/category/aml-templates', '387'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/category/rewatch-video',
-        component: ComponentCreator('/documentations/build/category/rewatch-video', '34d'),
+        path: '/documentations/build/category/system-design',
+        component: ComponentCreator('/documentations/build/category/system-design', '149'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/documentations/build/category/training-videos',
+        component: ComponentCreator('/documentations/build/category/training-videos', '34c'),
         exact: true,
         sidebar: "docsidebar"
       },
