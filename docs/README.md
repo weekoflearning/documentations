@@ -1,4 +1,5 @@
 # documentations
-documentations repo
+documentations repo, work of all my work 
 
-#sample. [sample](/sample.md)
+Link to Sample page 
+[sample](/sample.md)
