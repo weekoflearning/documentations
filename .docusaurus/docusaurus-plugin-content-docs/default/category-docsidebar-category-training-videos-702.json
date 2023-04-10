@@ -1,0 +1,16 @@
+{
+  "title": "Training videos ",
+  "description": "trainings videos",
+  "slug": "/category/training-videos",
+  "permalink": "/category/training-videos",
+  "navigation": {
+    "previous": {
+      "title": "sample",
+      "permalink": "/sample"
+    },
+    "next": {
+      "title": "System Design",
+      "permalink": "/category/system-design"
+    }
+  }
+}

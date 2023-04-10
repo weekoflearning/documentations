@@ -6,7 +6,7 @@
   "source": "@site/docs/README.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/documentations/build/",
+  "permalink": "/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "aml-templates",
-    "permalink": "/documentations/build/aml-templates/"
+    "permalink": "/aml-templates/"
   },
   "next": {
     "title": "sample",
-    "permalink": "/documentations/build/sample"
+    "permalink": "/sample"
   }
 }

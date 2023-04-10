@@ -6,7 +6,7 @@
 export default {
   "title": "Week of learning docs",
   "url": "http://localhost:3000",
-  "baseUrl": "/documentations/build/",
+  "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
