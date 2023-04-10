@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Week of learning docs',
-  url: 'http://localhost:3000',
-  baseUrl: '/documentations/',
+  url: 'https://weekoflearning.github.io/',
+  baseUrl: '/build/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
