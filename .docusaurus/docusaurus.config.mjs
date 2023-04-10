@@ -5,8 +5,8 @@
  */
 export default {
   "title": "Week of learning docs",
-  "url": "http://localhost:3000",
-  "baseUrl": "/documentations/",
+  "url": "https://weekoflearning.github.io/",
+  "baseUrl": "/documentations/build/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

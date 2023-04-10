@@ -6,7 +6,7 @@
   "source": "@site/docs/sample.md",
   "sourceDirName": ".",
   "slug": "/sample",
-  "permalink": "/documentations/sample",
+  "permalink": "/documentations/build/sample",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "documentations",
-    "permalink": "/documentations/"
+    "permalink": "/documentations/build/"
   },
   "next": {
     "title": "Training Videos",
-    "permalink": "/documentations/category/training-videos"
+    "permalink": "/documentations/build/category/training-videos"
   }
 }

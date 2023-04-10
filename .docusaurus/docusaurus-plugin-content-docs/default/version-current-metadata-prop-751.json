@@ -18,40 +18,40 @@
           {
             "type": "link",
             "label": "Microsoft Open Source Code of Conduct",
-            "href": "/documentations/aml-templates/CODE_OF_CONDUCT",
+            "href": "/documentations/build/aml-templates/CODE_OF_CONDUCT",
             "docId": "aml-templates/CODE_OF_CONDUCT"
           },
           {
             "type": "link",
             "label": "aml-templates",
-            "href": "/documentations/aml-templates/",
+            "href": "/documentations/build/aml-templates/",
             "docId": "aml-templates/README"
           },
           {
             "type": "link",
             "label": "SECURITY",
-            "href": "/documentations/aml-templates/SECURITY",
+            "href": "/documentations/build/aml-templates/SECURITY",
             "docId": "aml-templates/SECURITY"
           },
           {
             "type": "link",
             "label": "aml-templates",
-            "href": "/documentations/aml-templates/",
+            "href": "/documentations/build/aml-templates/",
             "docId": "aml-templates/readme"
           }
         ],
-        "href": "/documentations/category/aml-templates"
+        "href": "/documentations/build/category/aml-templates"
       },
       {
         "type": "link",
         "label": "documentations",
-        "href": "/documentations/",
+        "href": "/documentations/build/",
         "docId": "README"
       },
       {
         "type": "link",
         "label": "sample",
-        "href": "/documentations/sample",
+        "href": "/documentations/build/sample",
         "docId": "sample"
       },
       {
@@ -71,7 +71,7 @@
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/documentations/category/training-videos"
+        "href": "/documentations/build/category/training-videos"
       },
       {
         "type": "category",
@@ -85,7 +85,7 @@
         ],
         "collapsed": true,
         "collapsible": true,
-        "href": "/documentations/category/system-design"
+        "href": "/documentations/build/category/system-design"
       }
     ]
   },

@@ -6,7 +6,7 @@
   "source": "@site/docs/aml-templates/CODE_OF_CONDUCT.md",
   "sourceDirName": "aml-templates",
   "slug": "/aml-templates/CODE_OF_CONDUCT",
-  "permalink": "/documentations/aml-templates/CODE_OF_CONDUCT",
+  "permalink": "/documentations/build/aml-templates/CODE_OF_CONDUCT",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "aml-templates",
-    "permalink": "/documentations/category/aml-templates"
+    "permalink": "/documentations/build/category/aml-templates"
   },
   "next": {
     "title": "aml-templates",
-    "permalink": "/documentations/aml-templates/"
+    "permalink": "/documentations/build/aml-templates/"
   }
 }
