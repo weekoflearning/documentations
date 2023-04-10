@@ -3,65 +3,65 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/search',
-    component: ComponentCreator('/search', '3a1'),
+    path: '/documentations/search',
+    component: ComponentCreator('/documentations/search', 'afa'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', '0d8'),
+    path: '/documentations/',
+    component: ComponentCreator('/documentations/', 'bb6'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '35d'),
+        path: '/documentations/',
+        component: ComponentCreator('/documentations/', '9eb'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/',
-        component: ComponentCreator('/aml-templates/', '4c2'),
+        path: '/documentations/aml-templates/',
+        component: ComponentCreator('/documentations/aml-templates/', '6c8'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/',
-        component: ComponentCreator('/aml-templates/', '229'),
+        path: '/documentations/aml-templates/',
+        component: ComponentCreator('/documentations/aml-templates/', 'ff8'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/CODE_OF_CONDUCT',
-        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
+        path: '/documentations/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/documentations/aml-templates/CODE_OF_CONDUCT', '1dc'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/SECURITY',
-        component: ComponentCreator('/aml-templates/SECURITY', 'a47'),
+        path: '/documentations/aml-templates/SECURITY',
+        component: ComponentCreator('/documentations/aml-templates/SECURITY', '163'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/aml-templates',
-        component: ComponentCreator('/category/aml-templates', '775'),
+        path: '/documentations/category/aml-templates',
+        component: ComponentCreator('/documentations/category/aml-templates', '01a'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/system-design',
-        component: ComponentCreator('/category/system-design', '7cb'),
+        path: '/documentations/category/system-design',
+        component: ComponentCreator('/documentations/category/system-design', 'b17'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/training-videos',
-        component: ComponentCreator('/category/training-videos', 'd40'),
+        path: '/documentations/category/training-videos',
+        component: ComponentCreator('/documentations/category/training-videos', '58b'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/sample',
-        component: ComponentCreator('/sample', '469'),
+        path: '/documentations/sample',
+        component: ComponentCreator('/documentations/sample', '087'),
         exact: true,
         sidebar: "docsidebar"
       }

@@ -1,50 +1,50 @@
 {
-  "/search-3a1": {
+  "/documentations/search-afa": {
     "__comp": "1a4e3797",
     "__context": {
       "plugin": "ee4e7893"
     }
   },
-  "/-0d8": {
+  "/documentations/-bb6": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a73d4560"
     },
     "versionMetadata": "935f2afb"
   },
-  "/-35d": {
+  "/documentations/-9eb": {
     "__comp": "17896441",
     "content": "23374ca6"
   },
-  "/aml-templates/-4c2": {
+  "/documentations/aml-templates/-6c8": {
     "__comp": "17896441",
     "content": "e87ef15e"
   },
-  "/aml-templates/-229": {
+  "/documentations/aml-templates/-ff8": {
     "__comp": "17896441",
     "content": "8a93702f"
   },
-  "/aml-templates/CODE_OF_CONDUCT-e06": {
+  "/documentations/aml-templates/CODE_OF_CONDUCT-1dc": {
     "__comp": "17896441",
     "content": "476b5023"
   },
-  "/aml-templates/SECURITY-a47": {
+  "/documentations/aml-templates/SECURITY-163": {
     "__comp": "17896441",
     "content": "d5b01e06"
   },
-  "/category/aml-templates-775": {
+  "/documentations/category/aml-templates-01a": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "932a59a2"
+    "categoryGeneratedIndex": "259bf84c"
   },
-  "/category/system-design-7cb": {
+  "/documentations/category/system-design-b17": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "6e1db425"
+    "categoryGeneratedIndex": "66c2b617"
   },
-  "/category/training-videos-d40": {
+  "/documentations/category/training-videos-58b": {
     "__comp": "14eb3368",
-    "categoryGeneratedIndex": "97428171"
+    "categoryGeneratedIndex": "4db7be3c"
   },
-  "/sample-469": {
+  "/documentations/sample-087": {
     "__comp": "17896441",
     "content": "080fa6d0"
   }

@@ -1,58 +1,58 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/documentations/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/documentations/",
           "mainDocId": "README",
           "docs": [
             {
               "id": "aml-templates/CODE_OF_CONDUCT",
-              "path": "/aml-templates/CODE_OF_CONDUCT",
+              "path": "/documentations/aml-templates/CODE_OF_CONDUCT",
               "sidebar": "docsidebar"
             },
             {
               "id": "aml-templates/readme",
-              "path": "/aml-templates/",
+              "path": "/documentations/aml-templates/",
               "sidebar": "docsidebar"
             },
             {
               "id": "aml-templates/README",
-              "path": "/aml-templates/",
+              "path": "/documentations/aml-templates/",
               "sidebar": "docsidebar"
             },
             {
               "id": "aml-templates/SECURITY",
-              "path": "/aml-templates/SECURITY",
+              "path": "/documentations/aml-templates/SECURITY",
               "sidebar": "docsidebar"
             },
             {
               "id": "README",
-              "path": "/",
+              "path": "/documentations/",
               "sidebar": "docsidebar"
             },
             {
               "id": "sample",
-              "path": "/sample",
+              "path": "/documentations/sample",
               "sidebar": "docsidebar"
             },
             {
               "id": "/category/aml-templates",
-              "path": "/category/aml-templates",
+              "path": "/documentations/category/aml-templates",
               "sidebar": "docsidebar"
             },
             {
               "id": "/category/training-videos",
-              "path": "/category/training-videos",
+              "path": "/documentations/category/training-videos",
               "sidebar": "docsidebar"
             },
             {
               "id": "/category/system-design",
-              "path": "/category/system-design",
+              "path": "/documentations/category/system-design",
               "sidebar": "docsidebar"
             }
           ],
@@ -60,7 +60,7 @@
           "sidebars": {
             "docsidebar": {
               "link": {
-                "path": "/category/aml-templates",
+                "path": "/documentations/category/aml-templates",
                 "label": "aml-templates"
               }
             }
