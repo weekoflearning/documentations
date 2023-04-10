@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkweekoflearning_docsite=self.webpackChunkweekoflearning_docsite||[]).push([[340],{8599:e=>{e.exports=JSON.parse('{"title":"System Design","description":"system design questions","slug":"/category/system-design","permalink":"/category/system-design","navigation":{"previous":{"title":"Training Videos","permalink":"/category/training-videos"}}}')}}]);
