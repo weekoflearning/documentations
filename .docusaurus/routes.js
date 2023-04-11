@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '285'),
+    component: ComponentCreator('/documentations/build/', '9a1'),
     routes: [
       {
         path: '/documentations/build/',
@@ -38,6 +38,12 @@ export default [
       {
         path: '/documentations/build/aml-templates/SECURITY',
         component: ComponentCreator('/documentations/build/aml-templates/SECURITY', 'd8f'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/documentations/build/caches',
+        component: ComponentCreator('/documentations/build/caches', '4f9'),
         exact: true,
         sidebar: "docsidebar"
       },

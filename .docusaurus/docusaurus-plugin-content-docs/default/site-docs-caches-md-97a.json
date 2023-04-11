@@ -1,0 +1,23 @@
+{
+  "unversionedId": "caches",
+  "id": "caches",
+  "title": "caches",
+  "description": "When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed.",
+  "source": "@site/docs/caches.md",
+  "sourceDirName": ".",
+  "slug": "/caches",
+  "permalink": "/documentations/build/caches",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "documentations",
+    "permalink": "/documentations/build/"
+  },
+  "next": {
+    "title": "sample",
+    "permalink": "/documentations/build/sample"
+  }
+}

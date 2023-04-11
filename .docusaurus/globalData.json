@@ -31,6 +31,11 @@
               "sidebar": "docsidebar"
             },
             {
+              "id": "caches",
+              "path": "/documentations/build/caches",
+              "sidebar": "docsidebar"
+            },
+            {
               "id": "README",
               "path": "/documentations/build/",
               "sidebar": "docsidebar"
