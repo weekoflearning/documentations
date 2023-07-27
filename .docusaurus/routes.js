@@ -3,48 +3,13 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'a94'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '00e'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '40c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'a68'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '8d5'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'b0d'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'da4'),
-    exact: true
-  },
-  {
     path: '/search',
-    component: ComponentCreator('/search', '5b5'),
+    component: ComponentCreator('/search', '3a1'),
     exact: true
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'cb4'),
+    component: ComponentCreator('/', 'b1a'),
     routes: [
       {
         path: '/',
@@ -55,6 +20,12 @@ export default [
       {
         path: '/aml-templates/',
         component: ComponentCreator('/aml-templates/', '4c2'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/aml-templates/',
+        component: ComponentCreator('/aml-templates/', '229'),
         exact: true,
         sidebar: "docsidebar"
       },
