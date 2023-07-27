@@ -6,13 +6,13 @@
 export default {
   "title": "Week of learning docs",
   "url": "https://weekoflearning.github.io/",
-  "baseUrl": "/documentations/",
+  "baseUrl": "/documentations/build/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "themes": [
     [
-      "/home/runner/work/documentations/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "/Users/ashishonce/repos/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "indexBlog": false,
         "docsRouteBasePath": "/"
@@ -26,7 +26,7 @@ export default {
         "blog": false,
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/home/runner/work/documentations/documentations/sidebars.js"
+          "sidebarPath": "/Users/ashishonce/repos/documentations/sidebars.js"
         }
       }
     ]
@@ -45,8 +45,8 @@ export default {
         {
           "type": "doc",
           "position": "left",
-          "label": "aml-templates",
-          "docId": "/category/aml-templates"
+          "label": "topics",
+          "docId": "/category/topics"
         },
         {
           "position": "left",

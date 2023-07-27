@@ -1,53 +1,48 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/documentations/",
+      "path": "/documentations/build/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/documentations/",
+          "path": "/documentations/build/",
           "mainDocId": "README",
           "docs": [
             {
-              "id": "aml-templates/CODE_OF_CONDUCT",
-              "path": "/documentations/aml-templates/CODE_OF_CONDUCT",
-              "sidebar": "docsidebar"
-            },
-            {
-              "id": "aml-templates/readme",
-              "path": "/documentations/aml-templates/",
-              "sidebar": "docsidebar"
-            },
-            {
-              "id": "aml-templates/README",
-              "path": "/documentations/aml-templates/",
-              "sidebar": "docsidebar"
-            },
-            {
-              "id": "aml-templates/SECURITY",
-              "path": "/documentations/aml-templates/SECURITY",
-              "sidebar": "docsidebar"
-            },
-            {
-              "id": "caches",
-              "path": "/documentations/caches",
-              "sidebar": "docsidebar"
-            },
-            {
               "id": "README",
-              "path": "/documentations/",
+              "path": "/documentations/build/",
               "sidebar": "docsidebar"
             },
             {
               "id": "sample",
-              "path": "/documentations/sample",
+              "path": "/documentations/build/sample",
               "sidebar": "docsidebar"
             },
             {
-              "id": "/category/aml-templates",
-              "path": "/documentations/category/aml-templates",
+              "id": "topics/aws",
+              "path": "/documentations/build/topics/aws",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "topics/azure",
+              "path": "/documentations/build/topics/azure",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "topics/caches",
+              "path": "/documentations/build/topics/caches",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "topics/container",
+              "path": "/documentations/build/topics/container",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "/category/topics",
+              "path": "/documentations/build/category/topics",
               "sidebar": "docsidebar"
             }
           ],
@@ -55,8 +50,8 @@
           "sidebars": {
             "docsidebar": {
               "link": {
-                "path": "/documentations/category/aml-templates",
-                "label": "aml-templates"
+                "path": "/documentations/build/",
+                "label": "Introduction"
               }
             }
           }

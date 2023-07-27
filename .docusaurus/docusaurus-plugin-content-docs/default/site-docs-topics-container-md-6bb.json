@@ -1,0 +1,23 @@
+{
+  "unversionedId": "topics/container",
+  "id": "topics/container",
+  "title": "container",
+  "description": "sample container md",
+  "source": "@site/docs/topics/container.md",
+  "sourceDirName": "topics",
+  "slug": "/topics/container",
+  "permalink": "/documentations/build/topics/container",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "Caching and Caches",
+    "permalink": "/documentations/build/topics/caches"
+  },
+  "next": {
+    "title": "sample",
+    "permalink": "/documentations/build/sample"
+  }
+}

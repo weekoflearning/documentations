@@ -1,0 +1,23 @@
+{
+  "unversionedId": "topics/azure",
+  "id": "topics/azure",
+  "title": "azure",
+  "description": "",
+  "source": "@site/docs/topics/azure.md",
+  "sourceDirName": "topics",
+  "slug": "/topics/azure",
+  "permalink": "/documentations/build/topics/azure",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "aws",
+    "permalink": "/documentations/build/topics/aws"
+  },
+  "next": {
+    "title": "Caching and Caches",
+    "permalink": "/documentations/build/topics/caches"
+  }
+}

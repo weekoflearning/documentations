@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/documentations/",
-          "tagsPath": "/documentations/tags",
+          "path": "/documentations/build/",
+          "tagsPath": "/documentations/build/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/ashishonce/repos/documentations/sidebars.js",
@@ -18,123 +18,27 @@
           "contentPathLocalized": "/Users/ashishonce/repos/documentations/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "aml-templates/CODE_OF_CONDUCT",
-              "id": "aml-templates/CODE_OF_CONDUCT",
-              "title": "Microsoft Open Source Code of Conduct",
-              "description": "This project has adopted the Microsoft Open Source Code of Conduct.",
-              "source": "@site/docs/aml-templates/CODE_OF_CONDUCT.md",
-              "sourceDirName": "aml-templates",
-              "slug": "/aml-templates/CODE_OF_CONDUCT",
-              "permalink": "/documentations/aml-templates/CODE_OF_CONDUCT",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "docsidebar",
-              "previous": {
-                "title": "aml-templates",
-                "permalink": "/documentations/category/aml-templates"
-              },
-              "next": {
-                "title": "SECURITY",
-                "permalink": "/documentations/aml-templates/SECURITY"
-              }
-            },
-            {
-              "unversionedId": "aml-templates/readme",
-              "id": "aml-templates/readme",
-              "title": "aml-templates",
-              "description": "template repository for azure machine learnings",
-              "source": "@site/docs/aml-templates/readme.md",
-              "sourceDirName": "aml-templates",
-              "slug": "/aml-templates/",
-              "permalink": "/documentations/aml-templates/",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "docsidebar",
-              "previous": {
-                "title": "SECURITY",
-                "permalink": "/documentations/aml-templates/SECURITY"
-              },
-              "next": {
-                "title": "Caching and Caches",
-                "permalink": "/documentations/caches"
-              }
-            },
-            {
-              "unversionedId": "aml-templates/SECURITY",
-              "id": "aml-templates/SECURITY",
-              "title": "SECURITY",
-              "description": "Security",
-              "source": "@site/docs/aml-templates/SECURITY.md",
-              "sourceDirName": "aml-templates",
-              "slug": "/aml-templates/SECURITY",
-              "permalink": "/documentations/aml-templates/SECURITY",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "docsidebar",
-              "previous": {
-                "title": "Microsoft Open Source Code of Conduct",
-                "permalink": "/documentations/aml-templates/CODE_OF_CONDUCT"
-              },
-              "next": {
-                "title": "aml-templates",
-                "permalink": "/documentations/aml-templates/"
-              }
-            },
-            {
-              "unversionedId": "caches",
-              "id": "caches",
-              "title": "caches",
-              "description": "When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed.",
-              "source": "@site/docs/caches.md",
-              "sourceDirName": ".",
-              "slug": "/caches",
-              "permalink": "/documentations/caches",
-              "draft": false,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "Caching and Caches",
-                "displayed_sidebar": "docsidebar",
-                "sidebar_position": 2
-              },
-              "sidebar": "docsidebar",
-              "previous": {
-                "title": "aml-templates",
-                "permalink": "/documentations/aml-templates/"
-              },
-              "next": {
-                "title": "documentations",
-                "permalink": "/documentations/"
-              }
-            },
-            {
               "unversionedId": "README",
               "id": "README",
               "title": "documentations",
-              "description": "This would be the default documentation page for learning",
+              "description": "Welcome to Zingbing's documentation!",
               "source": "@site/docs/README.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/documentations/",
+              "permalink": "/documentations/build/",
               "draft": false,
               "tags": [],
               "version": "current",
-              "frontMatter": {},
-              "sidebar": "docsidebar",
-              "previous": {
-                "title": "Caching and Caches",
-                "permalink": "/documentations/caches"
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_label": "Introduction",
+                "displayed_sidebar": "docsidebar",
+                "sidebar_position": 1
               },
+              "sidebar": "docsidebar",
               "next": {
-                "title": "sample",
-                "permalink": "/documentations/sample"
+                "title": "Topics",
+                "permalink": "/documentations/build/category/topics"
               }
             },
             {
@@ -145,15 +49,110 @@
               "source": "@site/docs/sample.md",
               "sourceDirName": ".",
               "slug": "/sample",
-              "permalink": "/documentations/sample",
+              "permalink": "/documentations/build/sample",
               "draft": false,
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "docsidebar",
               "previous": {
-                "title": "documentations",
-                "permalink": "/documentations/"
+                "title": "container",
+                "permalink": "/documentations/build/topics/container"
+              }
+            },
+            {
+              "unversionedId": "topics/aws",
+              "id": "topics/aws",
+              "title": "aws",
+              "description": "",
+              "source": "@site/docs/topics/aws.md",
+              "sourceDirName": "topics",
+              "slug": "/topics/aws",
+              "permalink": "/documentations/build/topics/aws",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "Topics",
+                "permalink": "/documentations/build/category/topics"
+              },
+              "next": {
+                "title": "azure",
+                "permalink": "/documentations/build/topics/azure"
+              }
+            },
+            {
+              "unversionedId": "topics/azure",
+              "id": "topics/azure",
+              "title": "azure",
+              "description": "",
+              "source": "@site/docs/topics/azure.md",
+              "sourceDirName": "topics",
+              "slug": "/topics/azure",
+              "permalink": "/documentations/build/topics/azure",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "aws",
+                "permalink": "/documentations/build/topics/aws"
+              },
+              "next": {
+                "title": "Caching and Caches",
+                "permalink": "/documentations/build/topics/caches"
+              }
+            },
+            {
+              "unversionedId": "topics/caches",
+              "id": "topics/caches",
+              "title": "caches",
+              "description": "When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed.",
+              "source": "@site/docs/topics/caches.md",
+              "sourceDirName": "topics",
+              "slug": "/topics/caches",
+              "permalink": "/documentations/build/topics/caches",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "sidebar_label": "Caching and Caches",
+                "displayed_sidebar": "docsidebar"
+              },
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "azure",
+                "permalink": "/documentations/build/topics/azure"
+              },
+              "next": {
+                "title": "container",
+                "permalink": "/documentations/build/topics/container"
+              }
+            },
+            {
+              "unversionedId": "topics/container",
+              "id": "topics/container",
+              "title": "container",
+              "description": "sample container md",
+              "source": "@site/docs/topics/container.md",
+              "sourceDirName": "topics",
+              "slug": "/topics/container",
+              "permalink": "/documentations/build/topics/container",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "Caching and Caches",
+                "permalink": "/documentations/build/topics/caches"
+              },
+              "next": {
+                "title": "sample",
+                "permalink": "/documentations/build/sample"
               }
             }
           ],
@@ -161,39 +160,44 @@
           "sidebars": {
             "docsidebar": [
               {
+                "type": "doc",
+                "id": "README",
+                "label": "Introduction"
+              },
+              {
                 "type": "category",
-                "label": "aml-templates",
+                "label": "Topics",
                 "collapsible": true,
                 "collapsed": true,
+                "customProps": {
+                  "description": "This description can be used in the swizzled DocCard"
+                },
+                "className": "red",
                 "items": [
                   {
                     "type": "doc",
-                    "id": "aml-templates/CODE_OF_CONDUCT"
+                    "id": "topics/aws"
                   },
                   {
                     "type": "doc",
-                    "id": "aml-templates/SECURITY"
+                    "id": "topics/azure"
                   },
                   {
                     "type": "doc",
-                    "id": "aml-templates/readme"
+                    "id": "topics/caches",
+                    "label": "Caching and Caches"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "topics/container"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Synced documents from aml-templates",
-                  "slug": "/category/aml-templates",
-                  "permalink": "/documentations/category/aml-templates"
+                  "title": "Topics",
+                  "slug": "/category/topics",
+                  "permalink": "/documentations/build/category/topics"
                 }
-              },
-              {
-                "type": "doc",
-                "id": "caches",
-                "label": "Caching and Caches"
-              },
-              {
-                "type": "doc",
-                "id": "README"
               },
               {
                 "type": "doc",

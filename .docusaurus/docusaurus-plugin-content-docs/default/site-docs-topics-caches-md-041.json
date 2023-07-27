@@ -1,0 +1,26 @@
+{
+  "unversionedId": "topics/caches",
+  "id": "topics/caches",
+  "title": "caches",
+  "description": "When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed.",
+  "source": "@site/docs/topics/caches.md",
+  "sourceDirName": "topics",
+  "slug": "/topics/caches",
+  "permalink": "/documentations/build/topics/caches",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Caching and Caches",
+    "displayed_sidebar": "docsidebar"
+  },
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "azure",
+    "permalink": "/documentations/build/topics/azure"
+  },
+  "next": {
+    "title": "container",
+    "permalink": "/documentations/build/topics/container"
+  }
+}
