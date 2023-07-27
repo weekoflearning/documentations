@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/",
-          "tagsPath": "/tags",
+          "path": "/documentations/",
+          "tagsPath": "/documentations/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/ashishonce/repos/documentations/sidebars.js",
@@ -25,7 +25,7 @@
               "source": "@site/docs/aml-templates/CODE_OF_CONDUCT.md",
               "sourceDirName": "aml-templates",
               "slug": "/aml-templates/CODE_OF_CONDUCT",
-              "permalink": "/aml-templates/CODE_OF_CONDUCT",
+              "permalink": "/documentations/aml-templates/CODE_OF_CONDUCT",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -33,11 +33,11 @@
               "sidebar": "docsidebar",
               "previous": {
                 "title": "aml-templates",
-                "permalink": "/category/aml-templates"
+                "permalink": "/documentations/category/aml-templates"
               },
               "next": {
                 "title": "SECURITY",
-                "permalink": "/aml-templates/SECURITY"
+                "permalink": "/documentations/aml-templates/SECURITY"
               }
             },
             {
@@ -48,7 +48,7 @@
               "source": "@site/docs/aml-templates/readme.md",
               "sourceDirName": "aml-templates",
               "slug": "/aml-templates/",
-              "permalink": "/aml-templates/",
+              "permalink": "/documentations/aml-templates/",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -56,11 +56,11 @@
               "sidebar": "docsidebar",
               "previous": {
                 "title": "SECURITY",
-                "permalink": "/aml-templates/SECURITY"
+                "permalink": "/documentations/aml-templates/SECURITY"
               },
               "next": {
                 "title": "Caching and Caches",
-                "permalink": "/caches"
+                "permalink": "/documentations/caches"
               }
             },
             {
@@ -71,7 +71,7 @@
               "source": "@site/docs/aml-templates/SECURITY.md",
               "sourceDirName": "aml-templates",
               "slug": "/aml-templates/SECURITY",
-              "permalink": "/aml-templates/SECURITY",
+              "permalink": "/documentations/aml-templates/SECURITY",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -79,11 +79,11 @@
               "sidebar": "docsidebar",
               "previous": {
                 "title": "Microsoft Open Source Code of Conduct",
-                "permalink": "/aml-templates/CODE_OF_CONDUCT"
+                "permalink": "/documentations/aml-templates/CODE_OF_CONDUCT"
               },
               "next": {
                 "title": "aml-templates",
-                "permalink": "/aml-templates/"
+                "permalink": "/documentations/aml-templates/"
               }
             },
             {
@@ -94,7 +94,7 @@
               "source": "@site/docs/caches.md",
               "sourceDirName": ".",
               "slug": "/caches",
-              "permalink": "/caches",
+              "permalink": "/documentations/caches",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -107,11 +107,11 @@
               "sidebar": "docsidebar",
               "previous": {
                 "title": "aml-templates",
-                "permalink": "/aml-templates/"
+                "permalink": "/documentations/aml-templates/"
               },
               "next": {
                 "title": "documentations",
-                "permalink": "/"
+                "permalink": "/documentations/"
               }
             },
             {
@@ -122,7 +122,7 @@
               "source": "@site/docs/README.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/",
+              "permalink": "/documentations/",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -130,11 +130,11 @@
               "sidebar": "docsidebar",
               "previous": {
                 "title": "Caching and Caches",
-                "permalink": "/caches"
+                "permalink": "/documentations/caches"
               },
               "next": {
                 "title": "sample",
-                "permalink": "/sample"
+                "permalink": "/documentations/sample"
               }
             },
             {
@@ -145,7 +145,7 @@
               "source": "@site/docs/sample.md",
               "sourceDirName": ".",
               "slug": "/sample",
-              "permalink": "/sample",
+              "permalink": "/documentations/sample",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -153,7 +153,7 @@
               "sidebar": "docsidebar",
               "previous": {
                 "title": "documentations",
-                "permalink": "/"
+                "permalink": "/documentations/"
               }
             }
           ],
@@ -183,7 +183,7 @@
                   "type": "generated-index",
                   "description": "Synced documents from aml-templates",
                   "slug": "/category/aml-templates",
-                  "permalink": "/category/aml-templates"
+                  "permalink": "/documentations/category/aml-templates"
                 }
               },
               {

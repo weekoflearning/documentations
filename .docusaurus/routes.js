@@ -3,88 +3,88 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'a94'),
+    path: '/documentations/__docusaurus/debug',
+    component: ComponentCreator('/documentations/__docusaurus/debug', '7bc'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '00e'),
+    path: '/documentations/__docusaurus/debug/config',
+    component: ComponentCreator('/documentations/__docusaurus/debug/config', '6d0'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '40c'),
+    path: '/documentations/__docusaurus/debug/content',
+    component: ComponentCreator('/documentations/__docusaurus/debug/content', 'aa6'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'a68'),
+    path: '/documentations/__docusaurus/debug/globalData',
+    component: ComponentCreator('/documentations/__docusaurus/debug/globalData', '738'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '8d5'),
+    path: '/documentations/__docusaurus/debug/metadata',
+    component: ComponentCreator('/documentations/__docusaurus/debug/metadata', '970'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'b0d'),
+    path: '/documentations/__docusaurus/debug/registry',
+    component: ComponentCreator('/documentations/__docusaurus/debug/registry', '0ae'),
     exact: true
   },
   {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'da4'),
+    path: '/documentations/__docusaurus/debug/routes',
+    component: ComponentCreator('/documentations/__docusaurus/debug/routes', 'e1d'),
     exact: true
   },
   {
-    path: '/search',
-    component: ComponentCreator('/search', '5b5'),
+    path: '/documentations/search',
+    component: ComponentCreator('/documentations/search', '1b6'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'cb4'),
+    path: '/documentations/',
+    component: ComponentCreator('/documentations/', 'd2b'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '35d'),
+        path: '/documentations/',
+        component: ComponentCreator('/documentations/', '9eb'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/',
-        component: ComponentCreator('/aml-templates/', '4c2'),
+        path: '/documentations/aml-templates/',
+        component: ComponentCreator('/documentations/aml-templates/', '6c8'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/CODE_OF_CONDUCT',
-        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
+        path: '/documentations/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/documentations/aml-templates/CODE_OF_CONDUCT', '1dc'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/SECURITY',
-        component: ComponentCreator('/aml-templates/SECURITY', 'a47'),
+        path: '/documentations/aml-templates/SECURITY',
+        component: ComponentCreator('/documentations/aml-templates/SECURITY', '163'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/caches',
-        component: ComponentCreator('/caches', '317'),
+        path: '/documentations/caches',
+        component: ComponentCreator('/documentations/caches', '554'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/category/aml-templates',
-        component: ComponentCreator('/category/aml-templates', '775'),
+        path: '/documentations/category/aml-templates',
+        component: ComponentCreator('/documentations/category/aml-templates', '01a'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/sample',
-        component: ComponentCreator('/sample', '469'),
+        path: '/documentations/sample',
+        component: ComponentCreator('/documentations/sample', '087'),
         exact: true,
         sidebar: "docsidebar"
       }

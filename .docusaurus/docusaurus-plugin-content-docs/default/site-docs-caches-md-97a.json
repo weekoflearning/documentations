@@ -6,7 +6,7 @@
   "source": "@site/docs/caches.md",
   "sourceDirName": ".",
   "slug": "/caches",
-  "permalink": "/caches",
+  "permalink": "/documentations/caches",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -19,10 +19,10 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "aml-templates",
-    "permalink": "/aml-templates/"
+    "permalink": "/documentations/aml-templates/"
   },
   "next": {
     "title": "documentations",
-    "permalink": "/"
+    "permalink": "/documentations/"
   }
 }
