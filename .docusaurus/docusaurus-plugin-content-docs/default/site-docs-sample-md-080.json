@@ -6,7 +6,7 @@
   "source": "@site/docs/sample.md",
   "sourceDirName": ".",
   "slug": "/sample",
-  "permalink": "/documentations/sample",
+  "permalink": "/build/sample",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,6 +14,6 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "documentations",
-    "permalink": "/documentations/"
+    "permalink": "/build/"
   }
 }

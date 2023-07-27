@@ -1,53 +1,53 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/documentations/",
+      "path": "/build/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/documentations/",
+          "path": "/build/",
           "mainDocId": "README",
           "docs": [
             {
               "id": "aml-templates/CODE_OF_CONDUCT",
-              "path": "/documentations/aml-templates/CODE_OF_CONDUCT",
+              "path": "/build/aml-templates/CODE_OF_CONDUCT",
               "sidebar": "docsidebar"
             },
             {
               "id": "aml-templates/readme",
-              "path": "/documentations/aml-templates/",
+              "path": "/build/aml-templates/",
               "sidebar": "docsidebar"
             },
             {
               "id": "aml-templates/README",
-              "path": "/documentations/aml-templates/",
+              "path": "/build/aml-templates/",
               "sidebar": "docsidebar"
             },
             {
               "id": "aml-templates/SECURITY",
-              "path": "/documentations/aml-templates/SECURITY",
+              "path": "/build/aml-templates/SECURITY",
               "sidebar": "docsidebar"
             },
             {
               "id": "caches",
-              "path": "/documentations/caches",
+              "path": "/build/caches",
               "sidebar": "docsidebar"
             },
             {
               "id": "README",
-              "path": "/documentations/",
+              "path": "/build/",
               "sidebar": "docsidebar"
             },
             {
               "id": "sample",
-              "path": "/documentations/sample",
+              "path": "/build/sample",
               "sidebar": "docsidebar"
             },
             {
               "id": "/category/aml-templates",
-              "path": "/documentations/category/aml-templates",
+              "path": "/build/category/aml-templates",
               "sidebar": "docsidebar"
             }
           ],
@@ -55,7 +55,7 @@
           "sidebars": {
             "docsidebar": {
               "link": {
-                "path": "/documentations/category/aml-templates",
+                "path": "/build/category/aml-templates",
                 "label": "aml-templates"
               }
             }
