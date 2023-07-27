@@ -18,46 +18,46 @@
           {
             "type": "link",
             "label": "Microsoft Open Source Code of Conduct",
-            "href": "/build/aml-templates/CODE_OF_CONDUCT",
+            "href": "/documentations/build/aml-templates/CODE_OF_CONDUCT",
             "docId": "aml-templates/CODE_OF_CONDUCT"
           },
           {
             "type": "link",
             "label": "aml-templates",
-            "href": "/build/aml-templates/",
+            "href": "/documentations/build/aml-templates/",
             "docId": "aml-templates/README"
           },
           {
             "type": "link",
             "label": "SECURITY",
-            "href": "/build/aml-templates/SECURITY",
+            "href": "/documentations/build/aml-templates/SECURITY",
             "docId": "aml-templates/SECURITY"
           },
           {
             "type": "link",
             "label": "aml-templates",
-            "href": "/build/aml-templates/",
+            "href": "/documentations/build/aml-templates/",
             "docId": "aml-templates/readme"
           }
         ],
-        "href": "/build/category/aml-templates"
+        "href": "/documentations/build/category/aml-templates"
       },
       {
         "type": "link",
         "label": "Caching and Caches",
-        "href": "/build/caches",
+        "href": "/documentations/build/caches",
         "docId": "caches"
       },
       {
         "type": "link",
         "label": "documentations",
-        "href": "/build/",
+        "href": "/documentations/build/",
         "docId": "README"
       },
       {
         "type": "link",
         "label": "sample",
-        "href": "/build/sample",
+        "href": "/documentations/build/sample",
         "docId": "sample"
       }
     ]

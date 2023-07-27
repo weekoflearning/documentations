@@ -6,7 +6,7 @@
 export default {
   "title": "Week of learning docs",
   "url": "https://weekoflearning.github.io/",
-  "baseUrl": "/build/",
+  "baseUrl": "/documentations/build/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",

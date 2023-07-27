@@ -6,7 +6,7 @@
   "source": "@site/docs/README.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/build/",
+  "permalink": "/documentations/build/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "Caching and Caches",
-    "permalink": "/build/caches"
+    "permalink": "/documentations/build/caches"
   },
   "next": {
     "title": "sample",
-    "permalink": "/build/sample"
+    "permalink": "/documentations/build/sample"
   }
 }

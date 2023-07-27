@@ -1,4 +1,5 @@
 export default {
+  '068ac7f2': [() => import(/* webpackChunkName: '068ac7f2' */ '~docs/default/category-documentationsbuild-docsidebar-category-aml-templates-f14.json'), '~docs/default/category-documentationsbuild-docsidebar-category-aml-templates-f14.json', require.resolveWeak('~docs/default/category-documentationsbuild-docsidebar-category-aml-templates-f14.json')],
   '080fa6d0': [() => import(/* webpackChunkName: '080fa6d0' */ '@site/docs/sample.md'), '@site/docs/sample.md', require.resolveWeak('@site/docs/sample.md')],
   '14eb3368': [() => import(/* webpackChunkName: '14eb3368' */ '@theme/DocCategoryGeneratedIndexPage'), '@theme/DocCategoryGeneratedIndexPage', require.resolveWeak('@theme/DocCategoryGeneratedIndexPage')],
   '17896441': [() => import(/* webpackChunkName: '17896441' */ '@theme/DocItem'), '@theme/DocItem', require.resolveWeak('@theme/DocItem')],
@@ -6,7 +7,6 @@ export default {
   '1be78505': [() => import(/* webpackChunkName: '1be78505' */ '@theme/DocPage'), '@theme/DocPage', require.resolveWeak('@theme/DocPage')],
   '23374ca6': [() => import(/* webpackChunkName: '23374ca6' */ '@site/docs/README.md'), '@site/docs/README.md', require.resolveWeak('@site/docs/README.md')],
   '476b5023': [() => import(/* webpackChunkName: '476b5023' */ '@site/docs/aml-templates/CODE_OF_CONDUCT.md'), '@site/docs/aml-templates/CODE_OF_CONDUCT.md', require.resolveWeak('@site/docs/aml-templates/CODE_OF_CONDUCT.md')],
-  '752d231b': [() => import(/* webpackChunkName: '752d231b' */ '~docs/default/category-build-docsidebar-category-aml-templates-5b6.json'), '~docs/default/category-build-docsidebar-category-aml-templates-5b6.json', require.resolveWeak('~docs/default/category-build-docsidebar-category-aml-templates-5b6.json')],
   '8a93702f': [() => import(/* webpackChunkName: '8a93702f' */ '@site/docs/aml-templates/README.md'), '@site/docs/aml-templates/README.md', require.resolveWeak('@site/docs/aml-templates/README.md')],
   '935f2afb': [() => import(/* webpackChunkName: '935f2afb' */ '~docs/default/version-current-metadata-prop-751.json'), '~docs/default/version-current-metadata-prop-751.json', require.resolveWeak('~docs/default/version-current-metadata-prop-751.json')],
   '97af3348': [() => import(/* webpackChunkName: '97af3348' */ '@site/docs/caches.md'), '@site/docs/caches.md', require.resolveWeak('@site/docs/caches.md')],
