@@ -1,0 +1,216 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "label": "Next",
+          "banner": null,
+          "badge": false,
+          "noIndex": false,
+          "className": "docs-version-current",
+          "path": "/",
+          "tagsPath": "/tags",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/ashishonce/repos/documentations/sidebars.js",
+          "contentPath": "/Users/ashishonce/repos/documentations/docs",
+          "contentPathLocalized": "/Users/ashishonce/repos/documentations/i18n/en/docusaurus-plugin-content-docs/current",
+          "docs": [
+            {
+              "unversionedId": "aml-templates/CODE_OF_CONDUCT",
+              "id": "aml-templates/CODE_OF_CONDUCT",
+              "title": "Microsoft Open Source Code of Conduct",
+              "description": "This project has adopted the Microsoft Open Source Code of Conduct.",
+              "source": "@site/docs/aml-templates/CODE_OF_CONDUCT.md",
+              "sourceDirName": "aml-templates",
+              "slug": "/aml-templates/CODE_OF_CONDUCT",
+              "permalink": "/aml-templates/CODE_OF_CONDUCT",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "aml-templates",
+                "permalink": "/category/aml-templates"
+              },
+              "next": {
+                "title": "SECURITY",
+                "permalink": "/aml-templates/SECURITY"
+              }
+            },
+            {
+              "unversionedId": "aml-templates/readme",
+              "id": "aml-templates/readme",
+              "title": "aml-templates",
+              "description": "template repository for azure machine learnings",
+              "source": "@site/docs/aml-templates/readme.md",
+              "sourceDirName": "aml-templates",
+              "slug": "/aml-templates/",
+              "permalink": "/aml-templates/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "SECURITY",
+                "permalink": "/aml-templates/SECURITY"
+              },
+              "next": {
+                "title": "Caching and Caches",
+                "permalink": "/caches"
+              }
+            },
+            {
+              "unversionedId": "aml-templates/SECURITY",
+              "id": "aml-templates/SECURITY",
+              "title": "SECURITY",
+              "description": "Security",
+              "source": "@site/docs/aml-templates/SECURITY.md",
+              "sourceDirName": "aml-templates",
+              "slug": "/aml-templates/SECURITY",
+              "permalink": "/aml-templates/SECURITY",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "Microsoft Open Source Code of Conduct",
+                "permalink": "/aml-templates/CODE_OF_CONDUCT"
+              },
+              "next": {
+                "title": "aml-templates",
+                "permalink": "/aml-templates/"
+              }
+            },
+            {
+              "unversionedId": "caches",
+              "id": "caches",
+              "title": "caches",
+              "description": "When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed.",
+              "source": "@site/docs/caches.md",
+              "sourceDirName": ".",
+              "slug": "/caches",
+              "permalink": "/caches",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Caching and Caches",
+                "displayed_sidebar": "docsidebar",
+                "sidebar_position": 2
+              },
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "aml-templates",
+                "permalink": "/aml-templates/"
+              },
+              "next": {
+                "title": "documentations",
+                "permalink": "/"
+              }
+            },
+            {
+              "unversionedId": "README",
+              "id": "README",
+              "title": "documentations",
+              "description": "This would be the default documentation page for learning",
+              "source": "@site/docs/README.md",
+              "sourceDirName": ".",
+              "slug": "/",
+              "permalink": "/",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "Caching and Caches",
+                "permalink": "/caches"
+              },
+              "next": {
+                "title": "sample",
+                "permalink": "/sample"
+              }
+            },
+            {
+              "unversionedId": "sample",
+              "id": "sample",
+              "title": "sample",
+              "description": "Welcome to the page which helps you to learn about various topics",
+              "source": "@site/docs/sample.md",
+              "sourceDirName": ".",
+              "slug": "/sample",
+              "permalink": "/sample",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "documentations",
+                "permalink": "/"
+              }
+            }
+          ],
+          "drafts": [],
+          "sidebars": {
+            "docsidebar": [
+              {
+                "type": "category",
+                "label": "aml-templates",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "aml-templates/CODE_OF_CONDUCT"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "aml-templates/SECURITY"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "aml-templates/readme"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Synced documents from aml-templates",
+                  "slug": "/category/aml-templates",
+                  "permalink": "/category/aml-templates"
+                }
+              },
+              {
+                "type": "doc",
+                "id": "caches",
+                "label": "Caching and Caches"
+              },
+              {
+                "type": "doc",
+                "id": "README"
+              },
+              {
+                "type": "doc",
+                "id": "sample"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": null
+  },
+  "docusaurus-plugin-debug": {},
+  "docusaurus-theme-classic": {},
+  "@easyops-cn/docusaurus-search-local": {},
+  "docusaurus-bootstrap-plugin": {},
+  "docusaurus-mdx-fallback-plugin": {}
+}

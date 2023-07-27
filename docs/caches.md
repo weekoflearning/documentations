@@ -1,3 +1,10 @@
+---
+sidebar_label: 'Caching and Caches'
+displayed_sidebar: docsidebar
+sidebar_position: 2
+---
+
+
 When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed. 
 
 

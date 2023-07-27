@@ -3,71 +3,88 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/documentations/build/search',
-    component: ComponentCreator('/documentations/build/search', '5fd'),
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'a94'),
     exact: true
   },
   {
-    path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '9a1'),
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '00e'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '40c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'a68'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', '8d5'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'b0d'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', 'da4'),
+    exact: true
+  },
+  {
+    path: '/search',
+    component: ComponentCreator('/search', '5b5'),
+    exact: true
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', 'cb4'),
     routes: [
       {
-        path: '/documentations/build/',
-        component: ComponentCreator('/documentations/build/', 'edc'),
+        path: '/',
+        component: ComponentCreator('/', '35d'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/aml-templates/',
-        component: ComponentCreator('/documentations/build/aml-templates/', '1a0'),
+        path: '/aml-templates/',
+        component: ComponentCreator('/aml-templates/', '4c2'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/aml-templates/',
-        component: ComponentCreator('/documentations/build/aml-templates/', '374'),
+        path: '/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/aml-templates/CODE_OF_CONDUCT',
-        component: ComponentCreator('/documentations/build/aml-templates/CODE_OF_CONDUCT', '9fb'),
+        path: '/aml-templates/SECURITY',
+        component: ComponentCreator('/aml-templates/SECURITY', 'a47'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/aml-templates/SECURITY',
-        component: ComponentCreator('/documentations/build/aml-templates/SECURITY', 'd8f'),
+        path: '/caches',
+        component: ComponentCreator('/caches', '317'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/caches',
-        component: ComponentCreator('/documentations/build/caches', '4f9'),
+        path: '/category/aml-templates',
+        component: ComponentCreator('/category/aml-templates', '775'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/category/aml-templates',
-        component: ComponentCreator('/documentations/build/category/aml-templates', '387'),
-        exact: true,
-        sidebar: "docsidebar"
-      },
-      {
-        path: '/documentations/build/category/system-design',
-        component: ComponentCreator('/documentations/build/category/system-design', '149'),
-        exact: true,
-        sidebar: "docsidebar"
-      },
-      {
-        path: '/documentations/build/category/training-videos',
-        component: ComponentCreator('/documentations/build/category/training-videos', '34c'),
-        exact: true,
-        sidebar: "docsidebar"
-      },
-      {
-        path: '/documentations/build/sample',
-        component: ComponentCreator('/documentations/build/sample', '9c6'),
+        path: '/sample',
+        component: ComponentCreator('/sample', '469'),
         exact: true,
         sidebar: "docsidebar"
       }

@@ -6,18 +6,23 @@
   "source": "@site/docs/caches.md",
   "sourceDirName": ".",
   "slug": "/caches",
-  "permalink": "/documentations/build/caches",
+  "permalink": "/caches",
   "draft": false,
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Caching and Caches",
+    "displayed_sidebar": "docsidebar",
+    "sidebar_position": 2
+  },
   "sidebar": "docsidebar",
   "previous": {
-    "title": "documentations",
-    "permalink": "/documentations/build/"
+    "title": "aml-templates",
+    "permalink": "/aml-templates/"
   },
   "next": {
-    "title": "sample",
-    "permalink": "/documentations/build/sample"
+    "title": "documentations",
+    "permalink": "/"
   }
 }

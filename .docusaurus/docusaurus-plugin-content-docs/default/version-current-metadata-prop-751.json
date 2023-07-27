@@ -18,80 +18,41 @@
           {
             "type": "link",
             "label": "Microsoft Open Source Code of Conduct",
-            "href": "/documentations/build/aml-templates/CODE_OF_CONDUCT",
+            "href": "/aml-templates/CODE_OF_CONDUCT",
             "docId": "aml-templates/CODE_OF_CONDUCT"
           },
           {
             "type": "link",
-            "label": "aml-templates",
-            "href": "/documentations/build/aml-templates/",
-            "docId": "aml-templates/README"
-          },
-          {
-            "type": "link",
             "label": "SECURITY",
-            "href": "/documentations/build/aml-templates/SECURITY",
+            "href": "/aml-templates/SECURITY",
             "docId": "aml-templates/SECURITY"
           },
           {
             "type": "link",
             "label": "aml-templates",
-            "href": "/documentations/build/aml-templates/",
+            "href": "/aml-templates/",
             "docId": "aml-templates/readme"
           }
         ],
-        "href": "/documentations/build/category/aml-templates"
+        "href": "/category/aml-templates"
       },
       {
         "type": "link",
-        "label": "documentations",
-        "href": "/documentations/build/",
-        "docId": "README"
-      },
-      {
-        "type": "link",
-        "label": "caches",
-        "href": "/documentations/build/caches",
+        "label": "Caching and Caches",
+        "href": "/caches",
         "docId": "caches"
       },
       {
         "type": "link",
+        "label": "documentations",
+        "href": "/",
+        "docId": "README"
+      },
+      {
+        "type": "link",
         "label": "sample",
-        "href": "/documentations/build/sample",
+        "href": "/sample",
         "docId": "sample"
-      },
-      {
-        "type": "category",
-        "label": "Training Videos",
-        "items": [
-          {
-            "type": "link",
-            "label": "How to Deploy ",
-            "href": "#"
-          },
-          {
-            "type": "link",
-            "label": "How to Build",
-            "href": "#"
-          }
-        ],
-        "collapsed": true,
-        "collapsible": true,
-        "href": "/documentations/build/category/training-videos"
-      },
-      {
-        "type": "category",
-        "label": "System Design",
-        "items": [
-          {
-            "type": "link",
-            "label": "How to Test",
-            "href": "github.com/ashishonce"
-          }
-        ],
-        "collapsed": true,
-        "collapsible": true,
-        "href": "/documentations/build/category/system-design"
       }
     ]
   },
@@ -104,12 +65,6 @@
     },
     "aml-templates/readme": {
       "id": "aml-templates/readme",
-      "title": "aml-templates",
-      "description": "template repository for azure machine learnings",
-      "sidebar": "docsidebar"
-    },
-    "aml-templates/README": {
-      "id": "aml-templates/README",
       "title": "aml-templates",
       "description": "template repository for azure machine learnings",
       "sidebar": "docsidebar"
@@ -129,7 +84,7 @@
     "README": {
       "id": "README",
       "title": "documentations",
-      "description": "documentations repo, work of all my work",
+      "description": "This would be the default documentation page for learning",
       "sidebar": "docsidebar"
     },
     "sample": {

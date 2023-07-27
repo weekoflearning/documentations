@@ -6,13 +6,13 @@
 export default {
   "title": "Week of learning docs",
   "url": "https://weekoflearning.github.io/",
-  "baseUrl": "/documentations/build/",
+  "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
   "themes": [
     [
-      "/home/runner/work/documentations/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "/Users/ashishonce/repos/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "indexBlog": false,
         "docsRouteBasePath": "/"
@@ -26,7 +26,7 @@ export default {
         "blog": false,
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/home/runner/work/documentations/documentations/sidebars.js"
+          "sidebarPath": "/Users/ashishonce/repos/documentations/sidebars.js"
         }
       }
     ]
@@ -40,21 +40,13 @@ export default {
       "versionPersistence": "localStorage"
     },
     "navbar": {
-      "title": "Home",
-      "logo": {
-        "alt": "Repo logo",
-        "src": "img/IMG_20210515_160400_603.jpg"
-      },
+      "title": "Week of learning",
       "items": [
         {
+          "type": "doc",
           "position": "left",
           "label": "aml-templates",
-          "to": "/category/aml-templates"
-        },
-        {
-          "position": "left",
-          "label": "aml-templates2",
-          "to": "/aml-templates"
+          "docId": "/category/aml-templates"
         },
         {
           "position": "left",

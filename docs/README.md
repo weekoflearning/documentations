@@ -1,5 +1,3 @@
 # documentations
-documentations repo, work of all my work 
+This would be the default documentation page for learning
 
-Link to Sample page 
-[sample](/sample.md)

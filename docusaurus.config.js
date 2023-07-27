@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Week of learning docs',
   url: 'https://weekoflearning.github.io/',
-  baseUrl: '/documentations/build/',
+  baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -37,21 +37,17 @@ const config = {
         },
       },
       navbar: {
-        title: 'Home',
-        logo: {
-          alt: 'Repo logo',
-          src: 'img/IMG_20210515_160400_603.jpg',
-        },
+        title: 'Week of learning',
+        // logo: {
+        //   alt: 'Repo logo',
+        //   src: 'img/IMG_20210515_160400_603.jpg',
+        // },
         items: [
           {
+            type: 'doc',
             position: 'left',
             label: 'aml-templates',
-            to: "/category/aml-templates"
-          },
-          {
-            position: 'left',
-            label: 'aml-templates2',
-            to: "/aml-templates"
+            docId: "/category/aml-templates"
           },
           {
             position: 'left',

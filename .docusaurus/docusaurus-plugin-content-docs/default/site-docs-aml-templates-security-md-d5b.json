@@ -6,18 +6,18 @@
   "source": "@site/docs/aml-templates/SECURITY.md",
   "sourceDirName": "aml-templates",
   "slug": "/aml-templates/SECURITY",
-  "permalink": "/documentations/build/aml-templates/SECURITY",
+  "permalink": "/aml-templates/SECURITY",
   "draft": false,
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "docsidebar",
   "previous": {
-    "title": "aml-templates",
-    "permalink": "/documentations/build/aml-templates/"
+    "title": "Microsoft Open Source Code of Conduct",
+    "permalink": "/aml-templates/CODE_OF_CONDUCT"
   },
   "next": {
     "title": "aml-templates",
-    "permalink": "/documentations/build/aml-templates/"
+    "permalink": "/aml-templates/"
   }
 }

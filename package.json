@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "start": "docusaurus start --host 0.0.0.0",
+    "start": "docusaurus start --port 7001 --host 0.0.0.0",
     "build": "docusaurus build",
     "serve": "docusaurus serve",
     "test": "cypress open",

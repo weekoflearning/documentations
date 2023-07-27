@@ -6,7 +6,7 @@
   "source": "@site/docs/aml-templates/readme.md",
   "sourceDirName": "aml-templates",
   "slug": "/aml-templates/",
-  "permalink": "/documentations/build/aml-templates/",
+  "permalink": "/aml-templates/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -14,10 +14,10 @@
   "sidebar": "docsidebar",
   "previous": {
     "title": "SECURITY",
-    "permalink": "/documentations/build/aml-templates/SECURITY"
+    "permalink": "/aml-templates/SECURITY"
   },
   "next": {
-    "title": "documentations",
-    "permalink": "/documentations/build/"
+    "title": "Caching and Caches",
+    "permalink": "/caches"
   }
 }

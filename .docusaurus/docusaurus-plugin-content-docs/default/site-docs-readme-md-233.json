@@ -2,22 +2,22 @@
   "unversionedId": "README",
   "id": "README",
   "title": "documentations",
-  "description": "documentations repo, work of all my work",
+  "description": "This would be the default documentation page for learning",
   "source": "@site/docs/README.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/documentations/build/",
+  "permalink": "/",
   "draft": false,
   "tags": [],
   "version": "current",
   "frontMatter": {},
   "sidebar": "docsidebar",
   "previous": {
-    "title": "aml-templates",
-    "permalink": "/documentations/build/aml-templates/"
+    "title": "Caching and Caches",
+    "permalink": "/caches"
   },
   "next": {
-    "title": "caches",
-    "permalink": "/documentations/build/caches"
+    "title": "sample",
+    "permalink": "/sample"
   }
 }
