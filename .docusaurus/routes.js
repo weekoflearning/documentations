@@ -3,48 +3,13 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/documentations/__docusaurus/debug',
-    component: ComponentCreator('/documentations/__docusaurus/debug', '7bc'),
+    path: '/search',
+    component: ComponentCreator('/search', '3a1'),
     exact: true
   },
   {
-    path: '/documentations/__docusaurus/debug/config',
-    component: ComponentCreator('/documentations/__docusaurus/debug/config', '6d0'),
-    exact: true
-  },
-  {
-    path: '/documentations/__docusaurus/debug/content',
-    component: ComponentCreator('/documentations/__docusaurus/debug/content', 'aa6'),
-    exact: true
-  },
-  {
-    path: '/documentations/__docusaurus/debug/globalData',
-    component: ComponentCreator('/documentations/__docusaurus/debug/globalData', '738'),
-    exact: true
-  },
-  {
-    path: '/documentations/__docusaurus/debug/metadata',
-    component: ComponentCreator('/documentations/__docusaurus/debug/metadata', '970'),
-    exact: true
-  },
-  {
-    path: '/documentations/__docusaurus/debug/registry',
-    component: ComponentCreator('/documentations/__docusaurus/debug/registry', '0ae'),
-    exact: true
-  },
-  {
-    path: '/documentations/__docusaurus/debug/routes',
-    component: ComponentCreator('/documentations/__docusaurus/debug/routes', 'e1d'),
-    exact: true
-  },
-  {
-    path: '/documentations/search',
-    component: ComponentCreator('/documentations/search', '1b6'),
-    exact: true
-  },
-  {
-    path: '/documentations/',
-    component: ComponentCreator('/documentations/', 'd2b'),
+    path: '/',
+    component: ComponentCreator('/', 'b1a'),
     routes: [
       {
         path: '/documentations/',
@@ -59,8 +24,14 @@ export default [
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/aml-templates/CODE_OF_CONDUCT',
-        component: ComponentCreator('/documentations/aml-templates/CODE_OF_CONDUCT', '1dc'),
+        path: '/aml-templates/',
+        component: ComponentCreator('/aml-templates/', '229'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
         exact: true,
         sidebar: "docsidebar"
       },
