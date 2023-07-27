@@ -21,6 +21,11 @@
               "sidebar": "docsidebar"
             },
             {
+              "id": "topics/authentication",
+              "path": "/documentations/build/topics/authentication",
+              "sidebar": "docsidebar"
+            },
+            {
               "id": "topics/aws",
               "path": "/documentations/build/topics/aws",
               "sidebar": "docsidebar"

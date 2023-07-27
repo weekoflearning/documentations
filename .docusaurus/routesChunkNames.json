@@ -5,7 +5,7 @@
       "plugin": "ee4e7893"
     }
   },
-  "/documentations/build/-ffa": {
+  "/documentations/build/-071": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "a73d4560"
@@ -23,6 +23,10 @@
   "/documentations/build/sample-9c6": {
     "__comp": "17896441",
     "content": "080fa6d0"
+  },
+  "/documentations/build/topics/authentication-0c8": {
+    "__comp": "17896441",
+    "content": "9f4a692d"
   },
   "/documentations/build/topics/aws-cc7": {
     "__comp": "17896441",

@@ -13,8 +13,8 @@
   "frontMatter": {},
   "sidebar": "docsidebar",
   "previous": {
-    "title": "Topics",
-    "permalink": "/documentations/build/category/topics"
+    "title": "authentication",
+    "permalink": "/documentations/build/topics/authentication"
   },
   "next": {
     "title": "azure",

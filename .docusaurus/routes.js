@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', 'ffa'),
+    component: ComponentCreator('/documentations/build/', '071'),
     routes: [
       {
         path: '/documentations/build/',
@@ -26,6 +26,12 @@ export default [
       {
         path: '/documentations/build/sample',
         component: ComponentCreator('/documentations/build/sample', '9c6'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/documentations/build/topics/authentication',
+        component: ComponentCreator('/documentations/build/topics/authentication', '0c8'),
         exact: true,
         sidebar: "docsidebar"
       },
