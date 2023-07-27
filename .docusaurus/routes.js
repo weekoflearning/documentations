@@ -3,13 +3,13 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/search',
-    component: ComponentCreator('/search', '3a1'),
+    path: '/documentations/search',
+    component: ComponentCreator('/documentations/search', 'afa'),
     exact: true
   },
   {
-    path: '/',
-    component: ComponentCreator('/', 'b1a'),
+    path: '/documentations/',
+    component: ComponentCreator('/documentations/', '59f'),
     routes: [
       {
         path: '/documentations/',
@@ -24,14 +24,14 @@ export default [
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/',
-        component: ComponentCreator('/aml-templates/', '229'),
+        path: '/documentations/aml-templates/',
+        component: ComponentCreator('/documentations/aml-templates/', 'ff8'),
         exact: true,
         sidebar: "docsidebar"
       },
       {
-        path: '/aml-templates/CODE_OF_CONDUCT',
-        component: ComponentCreator('/aml-templates/CODE_OF_CONDUCT', 'e06'),
+        path: '/documentations/aml-templates/CODE_OF_CONDUCT',
+        component: ComponentCreator('/documentations/aml-templates/CODE_OF_CONDUCT', '1dc'),
         exact: true,
         sidebar: "docsidebar"
       },

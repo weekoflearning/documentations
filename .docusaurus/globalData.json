@@ -22,7 +22,7 @@
             },
             {
               "id": "aml-templates/README",
-              "path": "/aml-templates/",
+              "path": "/documentations/aml-templates/",
               "sidebar": "docsidebar"
             },
             {
