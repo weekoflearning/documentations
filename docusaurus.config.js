@@ -11,9 +11,29 @@ const config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  markdown: {
+    // format: 'detect',
+    mermaid: true,
+    // mdx1Compat: {
+    //   comments: false,
+    // }
+  },
   themes: [
-    [require.resolve("@easyops-cn/docusaurus-search-local"), ({indexBlog: false, docsRouteBasePath: "/"})]
+    [require.resolve("@easyops-cn/docusaurus-search-local"), ({indexBlog: false, docsRouteBasePath: "/"})],
+    // [require.resolve("@docusaurus/theme-mermaid"), {}],
+    ['@docusaurus/theme-live-codeblock',{}]
   ],
+
+  scripts: [
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.2.2/mermaid.min.js',
+      async: true,
+    },
+  ],
+  plugins: [
+    '@docusaurus/theme-mermaid'
+  ],
+
   presets: [
     [
       'classic',
@@ -25,10 +45,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
         },
       }),
+      
+
     ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // /** @type {import('@docusaurus/theme-mermaid').UserThemeConfig} */
     ({
       docs: {
         sidebar: {
@@ -92,6 +115,14 @@ const config = {
         ],
         copyright: "Content on this site is confidential and for internal use only.",
       },
+      // mermaid: {
+      //   theme: {
+      //     dark: 'dark',
+      //     light: 'default',
+      //   },
+        
+      //   options: {},
+      // },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,

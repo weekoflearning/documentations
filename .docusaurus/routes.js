@@ -4,12 +4,12 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/documentations/build/search',
-    component: ComponentCreator('/documentations/build/search', '5fd'),
+    component: ComponentCreator('/documentations/build/search', 'd43'),
     exact: true
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '071'),
+    component: ComponentCreator('/documentations/build/', '359'),
     routes: [
       {
         path: '/documentations/build/',

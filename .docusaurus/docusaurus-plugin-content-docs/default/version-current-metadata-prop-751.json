@@ -82,7 +82,7 @@
     "topics/authentication": {
       "id": "topics/authentication",
       "title": "authentication",
-      "description": "O-auth-2 sequence",
+      "description": "O-auth-2 and OIDC are most talked about at the moment.",
       "sidebar": "docsidebar"
     },
     "topics/aws": {

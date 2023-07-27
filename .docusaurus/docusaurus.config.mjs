@@ -5,19 +5,35 @@
  */
 export default {
   "title": "Week of learning docs",
-  "url": "https://weekoflearning.github.io/",
+  "url": "https://weekoflearning.github.io",
   "baseUrl": "/documentations/build/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
+  "markdown": {
+    "mermaid": true
+  },
   "themes": [
     [
-      "/home/runner/work/documentations/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
+      "/Users/ashishonce/repos/documentations/node_modules/@easyops-cn/docusaurus-search-local/dist/server/server/index.js",
       {
         "indexBlog": false,
         "docsRouteBasePath": "/"
       }
+    ],
+    [
+      "@docusaurus/theme-live-codeblock",
+      {}
     ]
+  ],
+  "scripts": [
+    {
+      "src": "https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.2.2/mermaid.min.js",
+      "async": true
+    }
+  ],
+  "plugins": [
+    "@docusaurus/theme-mermaid"
   ],
   "presets": [
     [
@@ -26,7 +42,7 @@ export default {
         "blog": false,
         "docs": {
           "routeBasePath": "/",
-          "sidebarPath": "/home/runner/work/documentations/documentations/sidebars.js"
+          "sidebarPath": "/Users/ashishonce/repos/documentations/sidebars.js"
         }
       }
     ]
@@ -305,6 +321,16 @@ export default {
     "tableOfContents": {
       "minHeadingLevel": 2,
       "maxHeadingLevel": 3
+    },
+    "mermaid": {
+      "theme": {
+        "dark": "dark",
+        "light": "default"
+      },
+      "options": {}
+    },
+    "liveCodeBlock": {
+      "playgroundPosition": "bottom"
     }
   },
   "baseUrlIssueBanner": true,
@@ -321,8 +347,7 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
-  "scripts": [],
+  "headTags": [],
   "stylesheets": [],
   "clientModules": [],
   "tagline": "",

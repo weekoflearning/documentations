@@ -61,6 +61,29 @@
               }
             },
             {
+              "unversionedId": "topics/authentication",
+              "id": "topics/authentication",
+              "title": "authentication",
+              "description": "O-auth-2 and OIDC are most talked about at the moment.",
+              "source": "@site/docs/topics/authentication.md",
+              "sourceDirName": "topics",
+              "slug": "/topics/authentication",
+              "permalink": "/documentations/build/topics/authentication",
+              "draft": false,
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "docsidebar",
+              "previous": {
+                "title": "Topics",
+                "permalink": "/documentations/build/category/topics"
+              },
+              "next": {
+                "title": "aws",
+                "permalink": "/documentations/build/topics/aws"
+              }
+            },
+            {
               "unversionedId": "topics/aws",
               "id": "topics/aws",
               "title": "aws",
@@ -75,8 +98,8 @@
               "frontMatter": {},
               "sidebar": "docsidebar",
               "previous": {
-                "title": "Topics",
-                "permalink": "/documentations/build/category/topics"
+                "title": "authentication",
+                "permalink": "/documentations/build/topics/authentication"
               },
               "next": {
                 "title": "azure",
@@ -176,6 +199,10 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "topics/authentication"
+                  },
+                  {
+                    "type": "doc",
                     "id": "topics/aws"
                   },
                   {
@@ -214,7 +241,9 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-theme-mermaid": {},
   "@easyops-cn/docusaurus-search-local": {},
+  "docusaurus-theme-live-codeblock": {},
   "docusaurus-bootstrap-plugin": {},
   "docusaurus-mdx-fallback-plugin": {}
 }
