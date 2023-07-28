@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '02e'),
+    component: ComponentCreator('/documentations/build/', '919'),
     routes: [
       {
         path: '/documentations/build/',
@@ -24,6 +24,12 @@ export default [
         sidebar: "docsidebar"
       },
       {
+        path: '/documentations/build/flows/https',
+        component: ComponentCreator('/documentations/build/flows/https', '745'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
         path: '/documentations/build/sample',
         component: ComponentCreator('/documentations/build/sample', '9c6'),
         exact: true,
@@ -32,18 +38,6 @@ export default [
       {
         path: '/documentations/build/topics/authentication',
         component: ComponentCreator('/documentations/build/topics/authentication', '0c8'),
-        exact: true,
-        sidebar: "docsidebar"
-      },
-      {
-        path: '/documentations/build/topics/aws',
-        component: ComponentCreator('/documentations/build/topics/aws', 'cc7'),
-        exact: true,
-        sidebar: "docsidebar"
-      },
-      {
-        path: '/documentations/build/topics/azure',
-        component: ComponentCreator('/documentations/build/topics/azure', '893'),
         exact: true,
         sidebar: "docsidebar"
       },
@@ -66,8 +60,8 @@ export default [
         sidebar: "docsidebar"
       },
       {
-        path: '/documentations/build/topics/flows',
-        component: ComponentCreator('/documentations/build/topics/flows', '541'),
+        path: '/documentations/build/topics/Major Important Flows',
+        component: ComponentCreator('/documentations/build/topics/Major Important Flows', '49c'),
         exact: true,
         sidebar: "docsidebar"
       }

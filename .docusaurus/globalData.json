@@ -11,6 +11,11 @@
           "mainDocId": "README",
           "docs": [
             {
+              "id": "flows/https",
+              "path": "/documentations/build/flows/https",
+              "sidebar": "docsidebar"
+            },
+            {
               "id": "README",
               "path": "/documentations/build/",
               "sidebar": "docsidebar"
@@ -23,16 +28,6 @@
             {
               "id": "topics/authentication",
               "path": "/documentations/build/topics/authentication",
-              "sidebar": "docsidebar"
-            },
-            {
-              "id": "topics/aws",
-              "path": "/documentations/build/topics/aws",
-              "sidebar": "docsidebar"
-            },
-            {
-              "id": "topics/azure",
-              "path": "/documentations/build/topics/azure",
               "sidebar": "docsidebar"
             },
             {
@@ -51,8 +46,8 @@
               "sidebar": "docsidebar"
             },
             {
-              "id": "topics/flows",
-              "path": "/documentations/build/topics/flows",
+              "id": "topics/Major Important Flows",
+              "path": "/documentations/build/topics/Major Important Flows",
               "sidebar": "docsidebar"
             },
             {

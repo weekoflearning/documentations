@@ -27,21 +27,15 @@
         "items": [
           {
             "type": "link",
+            "label": "Major Important Flows",
+            "href": "/documentations/build/topics/Major Important Flows",
+            "docId": "topics/Major Important Flows"
+          },
+          {
+            "type": "link",
             "label": "authentication",
             "href": "/documentations/build/topics/authentication",
             "docId": "topics/authentication"
-          },
-          {
-            "type": "link",
-            "label": "aws",
-            "href": "/documentations/build/topics/aws",
-            "docId": "topics/aws"
-          },
-          {
-            "type": "link",
-            "label": "azure",
-            "href": "/documentations/build/topics/azure",
-            "docId": "topics/azure"
           },
           {
             "type": "link",
@@ -60,15 +54,23 @@
             "label": "container",
             "href": "/documentations/build/topics/container",
             "docId": "topics/container"
-          },
-          {
-            "type": "link",
-            "label": "flows",
-            "href": "/documentations/build/topics/flows",
-            "docId": "topics/flows"
           }
         ],
         "href": "/documentations/build/category/topics"
+      },
+      {
+        "type": "category",
+        "label": "flows",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "https",
+            "href": "/documentations/build/flows/https",
+            "docId": "flows/https"
+          }
+        ]
       },
       {
         "type": "link",
@@ -79,6 +81,12 @@
     ]
   },
   "docs": {
+    "flows/https": {
+      "id": "flows/https",
+      "title": "https",
+      "description": "HTTPS flow involves following steps.",
+      "sidebar": "docsidebar"
+    },
     "README": {
       "id": "README",
       "title": "documentations",
@@ -94,19 +102,7 @@
     "topics/authentication": {
       "id": "topics/authentication",
       "title": "authentication",
-      "description": "Some content with Markdown syntax. Check this api.",
-      "sidebar": "docsidebar"
-    },
-    "topics/aws": {
-      "id": "topics/aws",
-      "title": "aws",
-      "description": "",
-      "sidebar": "docsidebar"
-    },
-    "topics/azure": {
-      "id": "topics/azure",
-      "title": "azure",
-      "description": "",
+      "description": "this will render a note",
       "sidebar": "docsidebar"
     },
     "topics/caches": {
@@ -127,9 +123,9 @@
       "description": "sample container md",
       "sidebar": "docsidebar"
     },
-    "topics/flows": {
-      "id": "topics/flows",
-      "title": "flows",
+    "topics/Major Important Flows": {
+      "id": "topics/Major Important Flows",
+      "title": "Major Important Flows",
       "description": "O-auth-2 and OIDC are two different protocols that are often used together to provide authentication and authorization in modern web applications. They are often confused with each other, and this article aims to clear up the differences between them.",
       "sidebar": "docsidebar"
     }
