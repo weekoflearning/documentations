@@ -8,31 +8,31 @@
 
 :::note
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+this will render a note
 
 :::
 
 :::tip
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+this wil render a tip
 
 :::
 
 :::info
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+this will render info
 
 :::
 
 :::caution
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+this renders caution
 
 :::
 
 :::danger
 
-Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
+this renders danger
 
 :::
 
