@@ -5,7 +5,7 @@ sidebar_position: 1
 ---
 
 # documentations
-Welcome to Zingbing's documentation!
+Welcome to Week-of-Learning!
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -14,7 +14,7 @@ Welcome to Zingbing's documentation!
 
 ## Introduction
 
-Zingbing is a Platform for people to learn .. learn fast and ,learn  with efficiency .
+Week of learning is a Platform for people to learn .. learn fast and, learn  with efficiency and providing learing paths on various topics.
 
 
 

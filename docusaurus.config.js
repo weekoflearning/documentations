@@ -113,7 +113,7 @@ const config = {
             ],
           },
         ],
-        copyright: "Content on this site is confidential and for internal use only.",
+        copyright: "All content rights reserved!",
       },
       // mermaid: {
       //   theme: {
