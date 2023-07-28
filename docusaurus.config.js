@@ -86,29 +86,29 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'aml-templates',
-                to: '/aml-templates/',
+                label: 'ZingBing',
+                href: 'https://github.com/ashishonce/zingbing.in',
               },
-              {
-                label: 'Meuse',
-                to: '/category/meuse',
-              },
-              {
-                label: 'DSA',
-                to: '/category/rewatch',
-              },
-              {
-                label: 'System Design',
-                to: '/category/external',
-              },
+              // {
+              //   label: 'Meuse',
+              //   to: '/category/meuse',
+              // },
+              // {
+              //   label: 'DSA',
+              //   to: '/category/rewatch',
+              // },
+              // {
+              //   label: 'System Design',
+              //   to: '/category/external',
+              // },
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Go to GitHub Profile',
-                href: 'https://github.com/ashishonce',
+                label: 'Github',
+                href: 'https://github.com/ashishonce/documentations',
               },
             ],
           },
