@@ -96,13 +96,13 @@
     "sample": {
       "id": "sample",
       "title": "sample",
-      "description": "Welcome to the page which helps you to learn about various topics",
+      "description": "Sample document for making contribution",
       "sidebar": "docsidebar"
     },
     "topics/authentication": {
       "id": "topics/authentication",
       "title": "authentication",
-      "description": "this will render a note",
+      "description": "",
       "sidebar": "docsidebar"
     },
     "topics/caches": {

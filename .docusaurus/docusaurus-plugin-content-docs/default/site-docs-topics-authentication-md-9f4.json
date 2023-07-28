@@ -2,7 +2,7 @@
   "unversionedId": "topics/authentication",
   "id": "topics/authentication",
   "title": "authentication",
-  "description": "this will render a note",
+  "description": "",
   "source": "@site/docs/topics/authentication.md",
   "sourceDirName": "topics",
   "slug": "/topics/authentication",
