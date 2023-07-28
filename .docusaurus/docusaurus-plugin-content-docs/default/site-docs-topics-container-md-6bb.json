@@ -13,11 +13,11 @@
   "frontMatter": {},
   "sidebar": "docsidebar",
   "previous": {
-    "title": "Caching and Caches",
-    "permalink": "/documentations/build/topics/caches"
+    "title": "coding Problem Patterns",
+    "permalink": "/documentations/build/topics/coding Problem Patterns"
   },
   "next": {
-    "title": "sample",
-    "permalink": "/documentations/build/sample"
+    "title": "flows",
+    "permalink": "/documentations/build/topics/flows"
   }
 }

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "topics/coding Problem Patterns",
+  "id": "topics/coding Problem Patterns",
+  "title": "coding Problem Patterns",
+  "description": "Pattern | DS Involved | Sample Problems",
+  "source": "@site/docs/topics/coding Problem Patterns.md",
+  "sourceDirName": "topics",
+  "slug": "/topics/coding Problem Patterns",
+  "permalink": "/documentations/build/topics/coding Problem Patterns",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "Caching and Caches",
+    "permalink": "/documentations/build/topics/caches"
+  },
+  "next": {
+    "title": "container",
+    "permalink": "/documentations/build/topics/container"
+  }
+}

@@ -51,9 +51,21 @@
           },
           {
             "type": "link",
+            "label": "coding Problem Patterns",
+            "href": "/documentations/build/topics/coding Problem Patterns",
+            "docId": "topics/coding Problem Patterns"
+          },
+          {
+            "type": "link",
             "label": "container",
             "href": "/documentations/build/topics/container",
             "docId": "topics/container"
+          },
+          {
+            "type": "link",
+            "label": "flows",
+            "href": "/documentations/build/topics/flows",
+            "docId": "topics/flows"
           }
         ],
         "href": "/documentations/build/category/topics"
@@ -70,7 +82,7 @@
     "README": {
       "id": "README",
       "title": "documentations",
-      "description": "Welcome to Zingbing's documentation!",
+      "description": "Welcome to Week-of-Learning!",
       "sidebar": "docsidebar"
     },
     "sample": {
@@ -82,7 +94,7 @@
     "topics/authentication": {
       "id": "topics/authentication",
       "title": "authentication",
-      "description": "O-auth-2 and OIDC are most talked about at the moment.",
+      "description": "Some content with Markdown syntax. Check this api.",
       "sidebar": "docsidebar"
     },
     "topics/aws": {
@@ -103,10 +115,22 @@
       "description": "When desiging a system , memeory is a very big consideration, becasue this is where everything is stored and processed.",
       "sidebar": "docsidebar"
     },
+    "topics/coding Problem Patterns": {
+      "id": "topics/coding Problem Patterns",
+      "title": "coding Problem Patterns",
+      "description": "Pattern | DS Involved | Sample Problems",
+      "sidebar": "docsidebar"
+    },
     "topics/container": {
       "id": "topics/container",
       "title": "container",
       "description": "sample container md",
+      "sidebar": "docsidebar"
+    },
+    "topics/flows": {
+      "id": "topics/flows",
+      "title": "flows",
+      "description": "O-auth-2 and OIDC are two different protocols that are often used together to provide authentication and authorization in modern web applications. They are often confused with each other, and this article aims to clear up the differences between them.",
       "sidebar": "docsidebar"
     }
   }

@@ -9,7 +9,7 @@ export default [
   },
   {
     path: '/documentations/build/',
-    component: ComponentCreator('/documentations/build/', '071'),
+    component: ComponentCreator('/documentations/build/', '02e'),
     routes: [
       {
         path: '/documentations/build/',
@@ -54,8 +54,20 @@ export default [
         sidebar: "docsidebar"
       },
       {
+        path: '/documentations/build/topics/coding Problem Patterns',
+        component: ComponentCreator('/documentations/build/topics/coding Problem Patterns', 'b8a'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
         path: '/documentations/build/topics/container',
         component: ComponentCreator('/documentations/build/topics/container', 'd0f'),
+        exact: true,
+        sidebar: "docsidebar"
+      },
+      {
+        path: '/documentations/build/topics/flows',
+        component: ComponentCreator('/documentations/build/topics/flows', '541'),
         exact: true,
         sidebar: "docsidebar"
       }

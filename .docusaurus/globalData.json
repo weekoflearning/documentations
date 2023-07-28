@@ -41,8 +41,18 @@
               "sidebar": "docsidebar"
             },
             {
+              "id": "topics/coding Problem Patterns",
+              "path": "/documentations/build/topics/coding Problem Patterns",
+              "sidebar": "docsidebar"
+            },
+            {
               "id": "topics/container",
               "path": "/documentations/build/topics/container",
+              "sidebar": "docsidebar"
+            },
+            {
+              "id": "topics/flows",
+              "path": "/documentations/build/topics/flows",
               "sidebar": "docsidebar"
             },
             {

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "topics/flows",
+  "id": "topics/flows",
+  "title": "flows",
+  "description": "O-auth-2 and OIDC are two different protocols that are often used together to provide authentication and authorization in modern web applications. They are often confused with each other, and this article aims to clear up the differences between them.",
+  "source": "@site/docs/topics/flows.md",
+  "sourceDirName": "topics",
+  "slug": "/topics/flows",
+  "permalink": "/documentations/build/topics/flows",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsidebar",
+  "previous": {
+    "title": "container",
+    "permalink": "/documentations/build/topics/container"
+  },
+  "next": {
+    "title": "sample",
+    "permalink": "/documentations/build/sample"
+  }
+}
